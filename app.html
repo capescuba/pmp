@@ -61,33 +61,57 @@
       const [filterDomain, setFilterDomain] = useState('All');
       const [filterArea, setFilterArea] = useState('All');
       const [loading, setLoading] = useState(true);
+      const [questionSet, setQuestionSet] = useState('1_100');
+      const [questionSets] = useState([
+        { id: '1_100', label: 'Questions 1-100' },
+        { id: '101_200', label: 'Questions 101-200' },
+        { id: '201_300', label: 'Questions 201-300' },
+        { id: '301_400', label: 'Questions 301-400' },
+        { id: '401_500', label: 'Questions 401-500' },
+        { id: '501_600', label: 'Questions 501-600' },
+        { id: '601_700', label: 'Questions 601-700' },
+        { id: '701_800', label: 'Questions 701-800' },
+        { id: '801_900', label: 'Questions 801-900' },
+        { id: '901_1000', label: 'Questions 901-1000' }
+      ]);
 
       // Load questions from JSON file
       useEffect(() => {
-        fetch('questions.json')
+        setLoading(true);
+        fetch(`questions_${questionSet}.json`)
           .then(response => response.json())
           .then(data => {
             setQuestions(data.questions);
+            setCurrentIndex(0); // Reset to first question when changing sets
+            setIsFlipped(false);
+            setShowAnswer(false);
             setLoading(false);
           })
           .catch(error => {
             console.error('Error loading questions:', error);
             setLoading(false);
           });
-      }, []);
+      }, [questionSet]);
 
       // Load progress from local storage
       useEffect(() => {
-        const savedProgress = localStorage.getItem('pmp_flashcard_progress');
+        const savedProgress = localStorage.getItem(`pmp_flashcard_progress_${questionSet}`);
         if (savedProgress) {
           setProgress(JSON.parse(savedProgress));
+        } else {
+          setProgress({ correct: 0, total: 0 });
         }
-      }, []);
+      }, [questionSet]);
 
       // Save progress to local storage
       useEffect(() => {
-        localStorage.setItem('pmp_flashcard_progress', JSON.stringify(progress));
-      }, [progress]);
+        localStorage.setItem(`pmp_flashcard_progress_${questionSet}`, JSON.stringify(progress));
+      }, [progress, questionSet]);
+
+      const resetProgress = () => {
+        setProgress({ correct: 0, total: 0 });
+        localStorage.removeItem(`pmp_flashcard_progress_${questionSet}`);
+      };
 
       // Filter questions
       const filteredQuestions = questions.filter(q => 
@@ -147,6 +171,18 @@
           <div className="mb-4">
             <div className="flex flex-col space-y-2">
               <div className="flex items-center space-x-2">
+                <label className="text-sm font-medium min-w-[80px]">Set:</label>
+                <select 
+                  className="border rounded p-1 flex-1"
+                  value={questionSet}
+                  onChange={(e) => setQuestionSet(e.target.value)}
+                >
+                  {questionSets.map(set => (
+                    <option key={set.id} value={set.id}>{set.label}</option>
+                  ))}
+                </select>
+              </div>
+              <div className="flex items-center space-x-2">
                 <label className="text-sm font-medium min-w-[80px]">Domain:</label>
                 <select 
                   className="border rounded p-1 flex-1"
@@ -171,12 +207,20 @@
                 </select>
               </div>
             </div>
-            <div className="flex justify-between mt-2">
+            <div className="flex justify-between items-center mt-2">
               <div className="text-sm">
                 Question: {currentIndex + 1} of {filteredQuestions.length}
               </div>
-              <div className="text-sm">
-                Progress: {progress.correct}/{progress.total}
+              <div className="flex items-center space-x-4">
+                <div className="text-sm">
+                  Progress: {progress.correct}/{progress.total} ({progress.total > 0 ? Math.round((progress.correct / progress.total) * 100) : 0}%)
+                </div>
+                <button 
+                  onClick={resetProgress}
+                  className="text-xs text-blue-500 hover:text-blue-700 underline"
+                >
+                  Reset Progress
+                </button>
               </div>
             </div>
           </div>
