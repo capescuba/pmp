@@ -30,7 +30,1365 @@
     },
     {
       "id": 3,
-      "question": "A project's CV = $10,000. What does this indicate?",
+      "question": "A risk with 20% probability could delay the project by two weeks and cost $10,000 to mitigate. What should you do NEXT?",
+      "options": [
+        "A. Accept and monitor the risk.",
+        "B. Implement the mitigation plan.",
+        "C. Perform quantitative risk analysis.",
+        "D. Transfer the risk."
+      ],
+      "correct_answer": "C",
+      "explanation": "Quantitative analysis assesses risk impact with known probability and cost. Accepting (A), mitigating (B), or transferring (D) follows analysis to prioritize risks.",
+      "domain": "Process",
+      "knowledge_area": "Risk Management"
+    },
+    {
+      "id": 4,
+      "question": "In an agile project, the team struggles to deliver story points per sprint. The product owner is concerned about the timeline. What should the Scrum Master do FIRST?",
+      "options": [
+        "A. Add developers to increase velocity.",
+        "B. Facilitate a retrospective.",
+        "C. Reduce sprint scope.",
+        "D. Extend sprint duration."
+      ],
+      "correct_answer": "B",
+      "explanation": "A retrospective identifies velocity issues collaboratively. Adding developers (A) may disrupt dynamics, reducing scope (C) needs analysis, and extending sprints (D) violates Scrum.",
+      "domain": "People",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 5,
+      "question": "Your project is 50% complete, BAC = $200,000, EV = $90,000, AC = $110,000. What is the Cost Performance Index (CPI)?",
+      "options": [
+        "A. 0.82",
+        "B. 1.22",
+        "C. 0.90",
+        "D. 1.11"
+      ],
+      "correct_answer": "A",
+      "explanation": "CPI = EV / AC = 90,000 / 110,000 = 0.82. CPI < 1 indicates over budget. B, C, D are incorrect calculations.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 6,
+      "question": "A quality audit reveals deliverables below standards. The team suggests rework. What should you do FIRST?",
+      "options": [
+        "A. Approve rework.",
+        "B. Conduct root cause analysis.",
+        "C. Escalate to QA team.",
+        "D. Update quality plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "Root cause analysis identifies why deliverables failed, preventing recurrence. Rework (A), escalating (C), or updating (D) without analysis is premature.",
+      "domain": "Process",
+      "knowledge_area": "Quality Management"
+    },
+    {
+      "id": 7,
+      "question": "A vendor insists on a fixed-price contract, but your organization prefers cost-reimbursable. What is the BEST approach?",
+      "options": [
+        "A. Agree to fixed-price.",
+        "B. Select another vendor.",
+        "C. Negotiate a hybrid contract.",
+        "D. Escalate to management."
+      ],
+      "correct_answer": "C",
+      "explanation": "A hybrid contract balances risk. Agreeing (A) increases risk, selecting another vendor (B) may delay, and escalating (D) avoids problem-solving.",
+      "domain": "Process",
+      "knowledge_area": "Procurement Management"
+    },
+    {
+      "id": 8,
+      "question": "A stakeholder complains about untimely updates. What should you do FIRST?",
+      "options": [
+        "A. Meet to clarify needs.",
+        "B. Update communications plan.",
+        "C. Send daily reports.",
+        "D. Assign a team member."
+      ],
+      "correct_answer": "A",
+      "explanation": "Clarifying stakeholder needs ensures effective communication. Updating (B), sending reports (C), or delegating (D) without understanding requirements may not solve the issue.",
+      "domain": "People",
+      "knowledge_area": "Communications Management"
+    },
+    {
+      "id": 9,
+      "question": "A critical team member is unavailable, impacting a deliverable. No internal replacements exist. What is the BEST action?",
+      "options": [
+        "A. Outsource to a consultant.",
+        "B. Reassign tasks.",
+        "C. Delay the deliverable.",
+        "D. Request timeline extension."
+      ],
+      "correct_answer": "A",
+      "explanation": "Outsourcing addresses the gap without overloading (B), delaying (C), or extending (D) the schedule.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 10,
+      "question": "The team is unclear about project objectives, causing misaligned deliverables. What should you do FIRST?",
+      "options": [
+        "A. Conduct training.",
+        "B. Review project charter.",
+        "C. Update project plan.",
+        "D. Escalate to sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "The charter clarifies objectives. Training (A), updating (C), or escalating (D) is premature without reinforcing the charter.",
+      "domain": "Process",
+      "knowledge_area": "Integration Management"
+    },
+    {
+      "id": 11,
+      "question": "During sprint planning, the team disagrees on story point estimates. What should the Scrum Master do?",
+      "options": [
+        "A. Assign estimates based on experience.",
+        "B. Facilitate consensus through discussion.",
+        "C. Let the product owner decide.",
+        "D. Skip estimation and proceed."
+      ],
+      "correct_answer": "B",
+      "explanation": "Facilitating consensus ensures team buy-in in agile. Assigning (A), deferring to the product owner (C), or skipping (D) undermines collaboration.",
+      "domain": "People",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 12,
+      "question": "A project is behind schedule. The sponsor requests a recovery plan. Which technique should you prioritize?",
+      "options": [
+        "A. Crashing.",
+        "B. Scope reduction.",
+        "C. Resource leveling.",
+        "D. Risk acceptance."
+      ],
+      "correct_answer": "A",
+      "explanation": "Crashing adds resources to recover the schedule. Scope reduction (B) needs approval, leveling (C) may delay further, and risk acceptance (D) doesn’t address the issue.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 13,
+      "question": "A stakeholder requests a status report format change mid-project. What should you do FIRST?",
+      "options": [
+        "A. Implement the new format.",
+        "B. Assess the impact on the communication plan.",
+        "C. Deny the request to maintain consistency.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact ensures the change aligns with the communication plan. Implementing (A), denying (C), or escalating (D) without analysis skips process.",
+      "domain": "Process",
+      "knowledge_area": "Communications Management"
+    },
+    {
+      "id": 14,
+      "question": "Your project has a SPI of 0.85. What does this indicate?",
+      "options": [
+        "A. Ahead of schedule.",
+        "B. Behind schedule.",
+        "C. Under budget.",
+        "D. Over budget."
+      ],
+      "correct_answer": "B",
+      "explanation": "SPI = EV / PV. SPI < 1 (0.85) means behind schedule. A is incorrect (SPI > 1). C and D relate to cost, not schedule.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 15,
+      "question": "A team member consistently misses deadlines, impacting team morale. What should you do FIRST?",
+      "options": [
+        "A. Replace the team member.",
+        "B. Discuss performance privately.",
+        "C. Reassign their tasks.",
+        "D. Report to HR."
+      ],
+      "correct_answer": "B",
+      "explanation": "Discussing performance addresses the issue directly and supports team dynamics. Replacing (A), reassigning (C), or reporting (D) without discussion is premature.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 16,
+      "question": "A vendor delivers materials late, risking project delays. What should you do FIRST?",
+      "options": [
+        "A. Terminate the contract.",
+        "B. Review the contract terms.",
+        "C. Escalate to the vendor’s management.",
+        "D. Adjust the schedule."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing the contract clarifies obligations and remedies. Terminating (A), escalating (C), or adjusting (D) without understanding terms is premature.",
+      "domain": "Process",
+      "knowledge_area": "Procurement Management"
+    },
+    {
+      "id": 17,
+      "question": "In a hybrid project, the predictive phase is delayed, affecting the agile phase. What should you do?",
+      "options": [
+        "A. Start the agile phase early.",
+        "B. Rebaseline the project schedule.",
+        "C. Analyze the delay’s impact.",
+        "D. Reduce agile sprint scope."
+      ],
+      "correct_answer": "C",
+      "explanation": "Analyzing the delay’s impact informs decisions across phases. Starting early (A), rebaselining (B), or reducing scope (D) without analysis skips process.",
+      "domain": "Process",
+      "knowledge_area": "Integration Management"
+    },
+    {
+      "id": 18,
+      "question": "A stakeholder is disengaged, missing key meetings. What should you do FIRST?",
+      "options": [
+        "A. Escalate to the sponsor.",
+        "B. Engage to understand their concerns.",
+        "C. Remove them from the stakeholder list.",
+        "D. Send meeting summaries."
+      ],
+      "correct_answer": "B",
+      "explanation": "Engaging the stakeholder clarifies their disengagement and maintains their involvement. Escalating (A), removing (C), or sending summaries (D) without understanding is ineffective.",
+      "domain": "People",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 19,
+      "question": "Your project is 40% complete, BAC = $500,000, EV = $180,000, AC = $200,000. What is the EAC?",
+      "options": [
+        "A. $555,556",
+        "B. $500,000",
+        "C. $450,000",
+        "D. $600,000"
+      ],
+      "correct_answer": "A",
+      "explanation": "CPI = EV / AC = 180,000 / 200,000 = 0.9. EAC = BAC / CPI = 500,000 / 0.9 = $555,556. B, C, D are incorrect calculations.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 20,
+      "question": "During a sprint review, stakeholders request significant changes to the product backlog. What should the product owner do?",
+      "options": [
+        "A. Implement changes immediately.",
+        "B. Prioritize changes in the backlog.",
+        "C. Reject changes to maintain scope.",
+        "D. Extend the sprint."
+      ],
+      "correct_answer": "B",
+      "explanation": "The product owner prioritizes changes in the backlog for future sprints. Implementing (A), rejecting (C), or extending (D) violates agile principles.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 21,
+      "question": "A project regulation changes, requiring additional compliance steps. What should you do FIRST?",
+      "options": [
+        "A. Implement the new steps.",
+        "B. Assess the impact on the project.",
+        "C. Notify the sponsor.",
+        "D. Update the risk register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact evaluates effects on scope, schedule, and cost. Implementing (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Business Environment",
+      "knowledge_area": "Integration Management"
+    },
+    {
+      "id": 22,
+      "question": "A team member suggests a process improvement that could save time. What should you do FIRST?",
+      "options": [
+        "A. Implement the improvement.",
+        "B. Evaluate its feasibility.",
+        "C. Update the process documentation.",
+        "D. Seek sponsor approval."
+      ],
+      "correct_answer": "B",
+      "explanation": "Evaluating feasibility ensures the improvement is practical. Implementing (A), updating (C), or seeking approval (D) without evaluation skips analysis.",
+      "domain": "Process",
+      "knowledge_area": "Quality Management"
+    },
+    {
+      "id": 23,
+      "question": "A key deliverable is rejected due to missing requirements. What should you do FIRST?",
+      "options": [
+        "A. Rework the deliverable.",
+        "B. Review the requirements traceability matrix.",
+        "C. Escalate to the sponsor.",
+        "D. Update the scope baseline."
+      ],
+      "correct_answer": "B",
+      "explanation": "The traceability matrix ensures requirements are met. Rework (A), escalating (C), or updating (D) without verifying requirements is premature.",
+      "domain": "Process",
+      "knowledge_area": "Scope Management"
+    },
+    {
+      "id": 24,
+      "question": "In a Kanban project, the team notices a bottleneck in testing. What should you do FIRST?",
+      "options": [
+        "A. Add testers to the team.",
+        "B. Analyze the bottleneck’s cause.",
+        "C. Skip testing for some features.",
+        "D. Increase WIP limits."
+      ],
+      "correct_answer": "B",
+      "explanation": "Analyzing the bottleneck identifies root causes for targeted solutions. Adding testers (A), skipping testing (C), or increasing WIP (D) without analysis may worsen issues.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 25,
+      "question": "A stakeholder requests daily progress updates, straining team resources. What should you do?",
+      "options": [
+        "A. Provide daily updates.",
+        "B. Negotiate a feasible frequency.",
+        "C. Deny the request.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Negotiating balances stakeholder needs and team capacity. Providing (A), denying (C), or escalating (D) without discussion is less effective.",
+      "domain": "People",
+      "knowledge_area": "Communications Management"
+    },
+    {
+      "id": 26,
+      "question": "Your project has a CV of -$20,000. What does this indicate?",
+      "options": [
+        "A. Ahead of schedule.",
+        "B. Behind schedule.",
+        "C. Over budget.",
+        "D. Under budget."
+      ],
+      "correct_answer": "C",
+      "explanation": "CV = EV - AC. Negative CV (-$20,000) means over budget. A and B relate to schedule, D is incorrect (positive CV).",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 27,
+      "question": "A team member is resistant to agile practices. What should you do FIRST?",
+      "options": [
+        "A. Remove them from the team.",
+        "B. Provide agile training.",
+        "C. Ignore their resistance.",
+        "D. Escalate to HR."
+      ],
+      "correct_answer": "B",
+      "explanation": "Training addresses resistance through education. Removing (A), ignoring (C), or escalating (D) without support is less constructive.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 28,
+      "question": "A project’s regulatory environment changes, requiring new certifications. What should you do FIRST?",
+      "options": [
+        "A. Obtain certifications.",
+        "B. Assess impact on the project.",
+        "C. Notify stakeholders.",
+        "D. Update the risk register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact evaluates scope, cost, and schedule effects. Obtaining (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Business Environment",
+      "knowledge_area": "Integration Management"
+    },
+    {
+      "id": 29,
+      "question": "During a sprint, a critical dependency is delayed. What should the Scrum Master do?",
+      "options": [
+        "A. Extend the sprint.",
+        "B. Remove the dependency.",
+        "C. Collaborate to resolve the delay.",
+        "D. Cancel the sprint."
+      ],
+      "correct_answer": "C",
+      "explanation": "Collaboration resolves the delay while maintaining sprint integrity. Extending (A), removing (B), or canceling (D) disrupts agile principles.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 30,
+      "question": "A stakeholder insists on unapproved changes, threatening project success. What should you do?",
+      "options": [
+        "A. Implement the changes.",
+        "B. Follow the change control process.",
+        "C. Escalate to the sponsor.",
+        "D. Reject the changes."
+      ],
+      "correct_answer": "B",
+      "explanation": "The change control process ensures changes are evaluated. Implementing (A), escalating (C), or rejecting (D) without process undermines governance.",
+      "domain": "Process",
+      "knowledge_area": "Scope Management"
+    },
+    {
+      "id": 31,
+      "question": "Your project is 60% complete, BAC = $300,000, EV = $180,000, PV = $200,000. What is the SPI?",
+      "options": [
+        "A. 0.90",
+        "B. 1.11",
+        "C. 0.60",
+        "D. 1.67"
+      ],
+      "correct_answer": "A",
+      "explanation": "SPI = EV / PV = 180,000 / 200,000 = 0.90. SPI < 1 indicates behind schedule. B, C, D are incorrect.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 32,
+      "question": "A team member’s conflict disrupts progress. What should you do FIRST?",
+      "options": [
+        "A. Escalate to HR.",
+        "B. Facilitate a resolution discussion.",
+        "C. Reassign the team member.",
+        "D. Ignore the conflict."
+      ],
+      "correct_answer": "B",
+      "explanation": "Facilitating resolution addresses the conflict directly. Escalating (A), reassigning (C), or ignoring (D) avoids proactive management.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 33,
+      "question": "A deliverable is delayed due to unclear requirements. What should you do FIRST?",
+      "options": [
+        "A. Rework the deliverable.",
+        "B. Clarify requirements with stakeholders.",
+        "C. Escalate to the sponsor.",
+        "D. Update the schedule."
+      ],
+      "correct_answer": "B",
+      "explanation": "Clarifying requirements resolves the root cause. Rework (A), escalating (C), or updating (D) without clarity is premature.",
+      "domain": "Process",
+      "knowledge_area": "Scope Management"
+    },
+    {
+      "id": 34,
+      "question": "A project’s CPI is 1.10. What does this indicate?",
+      "options": [
+        "A. Behind schedule.",
+        "B. Ahead of schedule.",
+        "C. Under budget.",
+        "D. Over budget."
+      ],
+      "correct_answer": "C",
+      "explanation": "CPI = EV / AC. CPI > 1 (1.10) means under budget. A and B relate to schedule, D is incorrect (CPI < 1).",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 35,
+      "question": "In a Scrum project, the product owner frequently changes priorities mid-sprint. What should the Scrum Master do?",
+      "options": [
+        "A. Allow the changes.",
+        "B. Educate on sprint goal stability.",
+        "C. Cancel the sprint.",
+        "D. Escalate to stakeholders."
+      ],
+      "correct_answer": "B",
+      "explanation": "Educating maintains sprint goal focus. Allowing (A), canceling (C), or escalating (D) disrupts agile principles.",
+      "domain": "People",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 36,
+      "question": "A vendor fails to meet quality standards. What should you do FIRST?",
+      "options": [
+        "A. Terminate the contract.",
+        "B. Review the contract’s quality terms.",
+        "C. Escalate to vendor management.",
+        "D. Accept the deliverables."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing the contract clarifies quality obligations. Terminating (A), escalating (C), or accepting (D) without review is premature.",
+      "domain": "Process",
+      "knowledge_area": "Procurement Management"
+    },
+    {
+      "id": 37,
+      "question": "A stakeholder requests a feature that conflicts with regulations. What should you do?",
+      "options": [
+        "A. Implement the feature.",
+        "B. Explain the regulatory conflict.",
+        "C. Escalate to the sponsor.",
+        "D. Update the risk register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Explaining the conflict ensures compliance. Implementing (A) violates regulations, escalating (C) or updating (D) without communication is less effective.",
+      "domain": "Business Environment",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 38,
+      "question": "A project is at risk due to a supplier’s financial instability. What should you do FIRST?",
+      "options": [
+        "A. Replace the supplier.",
+        "B. Assess the risk’s impact.",
+        "C. Notify the sponsor.",
+        "D. Update the procurement plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs risk response. Replacing (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Process",
+      "knowledge_area": "Risk Management"
+    },
+    {
+      "id": 39,
+      "question": "During a sprint retrospective, the team identifies low collaboration. What should the Scrum Master do?",
+      "options": [
+        "A. Assign new team roles.",
+        "B. Facilitate team-building activities.",
+        "C. Ignore the issue.",
+        "D. Report to the product owner."
+      ],
+      "correct_answer": "B",
+      "explanation": "Team-building improves collaboration. Assigning roles (A), ignoring (C), or reporting (D) doesn’t address the issue directly.",
+      "domain": "People",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 40,
+      "question": "A project’s To-Complete Performance Index (TCPI) is 1.20. What does this indicate?",
+      "options": [
+        "A. Easier to complete on budget.",
+        "B. Harder to complete on budget.",
+        "C. Ahead of schedule.",
+        "D. Behind schedule."
+      ],
+      "correct_answer": "B",
+      "explanation": "TCPI > 1 (1.20) means higher efficiency is needed to meet budget. A is incorrect (TCPI < 1). C and D relate to schedule.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 41,
+      "question": "A stakeholder is unaware of their role in the project. What should you do FIRST?",
+      "options": [
+        "A. Remove them from the project.",
+        "B. Clarify their role.",
+        "C. Escalate to the sponsor.",
+        "D. Update the stakeholder register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Clarifying the role ensures engagement. Removing (A), escalating (C), or updating (D) without communication is premature.",
+      "domain": "People",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 42,
+      "question": "A project task requires a skill not available in the team. What should you do?",
+      "options": [
+        "A. Train the team.",
+        "B. Outsource the task.",
+        "C. Delay the task.",
+        "D. Reassign the task."
+      ],
+      "correct_answer": "B",
+      "explanation": "Outsourcing addresses the skill gap efficiently. Training (A) may take too long, delaying (C) impacts schedule, and reassigning (D) is infeasible without skills.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 43,
+      "question": "A deliverable passes quality checks but fails stakeholder expectations. What should you do FIRST?",
+      "options": [
+        "A. Rework the deliverable.",
+        "B. Review stakeholder requirements.",
+        "C. Escalate to the sponsor.",
+        "D. Update the quality plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing requirements clarifies expectations. Rework (A), escalating (C), or updating (D) without understanding the gap is premature.",
+      "domain": "Process",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 44,
+      "question": "A project’s regulatory approval is delayed, risking the timeline. What should you do FIRST?",
+      "options": [
+        "A. Adjust the schedule.",
+        "B. Assess the delay’s impact.",
+        "C. Notify stakeholders.",
+        "D. Update the risk register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs response. Adjusting (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Business Environment",
+      "knowledge_area": "Risk Management"
+    },
+    {
+      "id": 45,
+      "question": "In a Scrum project, the team completes only 50% of sprint tasks. What should the Scrum Master do?",
+      "options": [
+        "A. Extend the sprint.",
+        "B. Conduct a retrospective.",
+        "C. Reduce the next sprint’s scope.",
+        "D. Report to the product owner."
+      ],
+      "correct_answer": "B",
+      "explanation": "A retrospective identifies causes of incomplete work. Extending (A), reducing scope (C), or reporting (D) without analysis violates agile principles.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 46,
+      "question": "A project’s BAC = $400,000, EV = $150,000, AC = $180,000. What is the CV?",
+      "options": [
+        "A. -$30,000",
+        "B. $30,000",
+        "C. -$50,000",
+        "D. $50,000"
+      ],
+      "correct_answer": "A",
+      "explanation": "CV = EV - AC = 150,000 - 180,000 = -$30,000. Negative CV indicates over budget. B, C, D are incorrect.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 47,
+      "question": "A team member’s personal issues affect performance. What should you do FIRST?",
+      "options": [
+        "A. Reassign their tasks.",
+        "B. Discuss support options.",
+        "C. Report to HR.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "B",
+      "explanation": "Discussing support respects the team member and addresses performance. Reassigning (A), reporting (C), or ignoring (D) without discussion is less empathetic.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 48,
+      "question": "A stakeholder requests a change that increases costs. What should you do FIRST?",
+      "options": [
+        "A. Approve the change.",
+        "B. Analyze the cost impact.",
+        "C. Escalate to the sponsor.",
+        "D. Reject the change."
+      ],
+      "correct_answer": "B",
+      "explanation": "Analyzing cost impact informs the change control process. Approving (A), escalating (C), or rejecting (D) without analysis skips governance.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 49,
+      "question": "A project’s critical path has no float. A task is delayed by 3 days. What is the impact?",
+      "options": [
+        "A. No impact.",
+        "B. Project delayed by 3 days.",
+        "C. Project delayed by 1 day.",
+        "D. Depends on resources."
+      ],
+      "correct_answer": "B",
+      "explanation": "No float means critical path delays directly delay the project. A 3-day task delay delays the project by 3 days. A, C, D are incorrect.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 50,
+      "question": "A stakeholder is unaware of project progress. What should you do FIRST?",
+      "options": [
+        "A. Send a status report.",
+        "B. Review the communication plan.",
+        "C. Escalate to the sponsor.",
+        "D. Update the stakeholder register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing the communication plan ensures stakeholder needs are met. Sending (A), escalating (C), or updating (D) without review may miss root causes.",
+      "domain": "People",
+      "knowledge_area": "Communications Management"
+    },
+    {
+      "id": 51,
+      "question": "A project’s quality standards are not met. What should you do FIRST?",
+      "options": [
+        "A. Rework deliverables.",
+        "B. Conduct a quality audit.",
+        "C. Escalate to QA team.",
+        "D. Update the quality plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "A quality audit identifies causes of non-compliance. Rework (A), escalating (C), or updating (D) without analysis is premature.",
+      "domain": "Process",
+      "knowledge_area": "Quality Management"
+    },
+    {
+      "id": 52,
+      "question": "A team member suggests a risky shortcut to meet a deadline. What should you do?",
+      "options": [
+        "A. Approve the shortcut.",
+        "B. Assess the risk’s impact.",
+        "C. Reject the shortcut.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing risk informs the decision. Approving (A), rejecting (C), or escalating (D) without analysis skips process.",
+      "domain": "Process",
+      "knowledge_area": "Risk Management"
+    },
+    {
+      "id": 53,
+      "question": "In a Kanban project, WIP limits are exceeded. What should you do FIRST?",
+      "options": [
+        "A. Increase WIP limits.",
+        "B. Identify the bottleneck.",
+        "C. Add team members.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "B",
+      "explanation": "Identifying the bottleneck resolves WIP issues. Increasing (A), adding (C), or ignoring (D) without analysis may worsen flow.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 54,
+      "question": "A project’s EVM shows SV = -$10,000. What does this indicate?",
+      "options": [
+        "A. Ahead of schedule.",
+        "B. Behind schedule.",
+        "C. Under budget.",
+        "D. Over budget."
+      ],
+      "correct_answer": "B",
+      "explanation": "SV = EV - PV. Negative SV (-$10,000) means behind schedule. A is incorrect (positive SV). C and D relate to cost.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 55,
+      "question": "A stakeholder requests a feature not in the scope. What should you do FIRST?",
+      "options": [
+        "A. Add the feature.",
+        "B. Follow change control.",
+        "C. Reject the feature.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Change control evaluates the feature’s impact. Adding (A), rejecting (C), or escalating (D) without process undermines governance.",
+      "domain": "Process",
+      "knowledge_area": "Scope Management"
+    },
+    {
+      "id": 56,
+      "question": "A team member is over-allocated, causing delays. What should you do?",
+      "options": [
+        "A. Reassign tasks.",
+        "B. Hire additional staff.",
+        "C. Extend the schedule.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "A",
+      "explanation": "Reassigning tasks balances workload. Hiring (B) or extending (C) is premature, ignoring (D) worsens delays.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 57,
+      "question": "A project’s regulatory change increases costs. What should you do FIRST?",
+      "options": [
+        "A. Absorb the costs.",
+        "B. Assess the cost impact.",
+        "C. Notify the sponsor.",
+        "D. Update the budget."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs decisions. Absorbing (A), notifying (C), or updating (D) without analysis skips process.",
+      "domain": "Business Environment",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 58,
+      "question": "During a sprint, a team member is unavailable. What should the Scrum Master do?",
+      "options": [
+        "A. Cancel the sprint.",
+        "B. Adjust the sprint scope.",
+        "C. Replan with the team.",
+        "D. Extend the sprint."
+      ],
+      "correct_answer": "C",
+      "explanation": "Replanning with the team maintains sprint integrity. Canceling (A), adjusting (B), or extending (D) disrupts agile principles.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 59,
+      "question": "A project’s BAC = $600,000, CPI = 0.80. What is the EAC?",
+      "options": [
+        "A. $480,000",
+        "B. $750,000",
+        "C. $600,000",
+        "D. $800,000"
+      ],
+      "correct_answer": "B",
+      "explanation": "EAC = BAC / CPI = 600,000 / 0.80 = $750,000. A, C, D are incorrect calculations.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 60,
+      "question": "A stakeholder misses key meetings, delaying decisions. What should you do?",
+      "options": [
+        "A. Proceed without them.",
+        "B. Engage to understand barriers.",
+        "C. Escalate to the sponsor.",
+        "D. Remove them."
+      ],
+      "correct_answer": "B",
+      "explanation": "Engaging addresses barriers to participation. Proceeding (A), escalating (C), or removing (D) without communication is less effective.",
+      "domain": "People",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 61,
+      "question": "A project’s critical path task is delayed. What should you do FIRST?",
+      "options": [
+        "A. Crash the task.",
+        "B. Assess the delay’s impact.",
+        "C. Notify the sponsor.",
+        "D. Update the schedule."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs response. Crashing (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 62,
+      "question": "A team member lacks motivation, affecting performance. What should you do FIRST?",
+      "options": [
+        "A. Reassign their tasks.",
+        "B. Discuss their concerns.",
+        "C. Report to HR.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "B",
+      "explanation": "Discussing concerns addresses motivation. Reassigning (A), reporting (C), or ignoring (D) without discussion is less effective.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 63,
+      "question": "A deliverable is rejected for non-compliance. What should you do FIRST?",
+      "options": [
+        "A. Rework the deliverable.",
+        "B. Review compliance requirements.",
+        "C. Escalate to the sponsor.",
+        "D. Update the quality plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing requirements clarifies non-compliance. Rework (A), escalating (C), or updating (D) without review is premature.",
+      "domain": "Process",
+      "knowledge_area": "Quality Management"
+    },
+    {
+      "id": 64,
+      "question": "A project’s stakeholder requests conflicting changes. What should you do?",
+      "options": [
+        "A. Implement the changes.",
+        "B. Facilitate a resolution meeting.",
+        "C. Reject the changes.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Facilitating a meeting resolves conflicts. Implementing (A), rejecting (C), or escalating (D) without discussion skips stakeholder engagement.",
+      "domain": "People",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 65,
+      "question": "A project’s SPI = 1.15. What does this indicate?",
+      "options": [
+        "A. Behind schedule.",
+        "B. Ahead of schedule.",
+        "C. Over budget.",
+        "D. Under budget."
+      ],
+      "correct_answer": "B",
+      "explanation": "SPI = EV / PV. SPI > 1 (1.15) means ahead of schedule. A is incorrect (SPI < 1). C and D relate to cost.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 66,
+      "question": "A vendor’s delivery is delayed, risking the critical path. What should you do FIRST?",
+      "options": [
+        "A. Terminate the contract.",
+        "B. Review the contract terms.",
+        "C. Escalate to vendor management.",
+        "D. Adjust the schedule."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing terms clarifies obligations. Terminating (A), escalating (C), or adjusting (D) without review is premature.",
+      "domain": "Process",
+      "knowledge_area": "Procurement Management"
+    },
+    {
+      "id": 67,
+      "question": "A team member resists agile adoption. What should you do FIRST?",
+      "options": [
+        "A. Remove them.",
+        "B. Provide agile training.",
+        "C. Ignore the resistance.",
+        "D. Escalate to HR."
+      ],
+      "correct_answer": "B",
+      "explanation": "Training addresses resistance constructively. Removing (A), ignoring (C), or escalating (D) without support is less effective.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 68,
+      "question": "A project’s regulation changes, requiring new processes. What should you do FIRST?",
+      "options": [
+        "A. Implement the processes.",
+        "B. Assess the impact.",
+        "C. Notify stakeholders.",
+        "D. Update the risk register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs response. Implementing (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Business Environment",
+      "knowledge_area": "Integration Management"
+    },
+    {
+      "id": 69,
+      "question": "In a Scrum project, stakeholders demand mid-sprint changes. What should the Scrum Master do?",
+      "options": [
+        "A. Allow the changes.",
+        "B. Educate on sprint stability.",
+        "C. Cancel the sprint.",
+        "D. Escalate to the product owner."
+      ],
+      "correct_answer": "B",
+      "explanation": "Educating maintains sprint focus. Allowing (A), canceling (C), or escalating (D) disrupts agile principles.",
+      "domain": "People",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 70,
+      "question": "A project’s CV = $15,000. What does this indicate?",
+      "options": [
+        "A. Behind schedule.",
+        "B. Ahead of schedule.",
+        "C. Under budget.",
+        "D. Over budget."
+      ],
+      "correct_answer": "C",
+      "explanation": "CV = EV - AC. Positive CV ($15,000) means under budget. A and B relate to schedule, D is incorrect (negative CV).",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 71,
+      "question": "A stakeholder is disengaged, impacting decisions. What should you do FIRST?",
+      "options": [
+        "A. Proceed without them.",
+        "B. Engage to understand barriers.",
+        "C. Escalate to the sponsor.",
+        "D. Remove them."
+      ],
+      "correct_answer": "B",
+      "explanation": "Engaging addresses disengagement. Proceeding (A), escalating (C), or removing (D) without communication is less effective.",
+      "domain": "People",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 72,
+      "question": "A project task requires unavailable expertise. What should you do?",
+      "options": [
+        "A. Train the team.",
+        "B. Outsource the task.",
+        "C. Delay the task.",
+        "D. Reassign the task."
+      ],
+      "correct_answer": "B",
+      "explanation": "Outsourcing addresses the expertise gap. Training (A) may delay, delaying (C) impacts schedule, and reassigning (D) is infeasible.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 73,
+      "question": "A deliverable meets quality but not stakeholder expectations. What should you do FIRST?",
+      "options": [
+        "A. Rework the deliverable.",
+        "B. Review stakeholder expectations.",
+        "C. Escalate to the sponsor.",
+        "D. Update the quality plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing expectations clarifies the gap. Rework (A), escalating (C), or updating (D) without review is premature.",
+      "domain": "Process",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 74,
+      "question": "A project’s regulatory approval is delayed. What should you do FIRST?",
+      "options": [
+        "A. Adjust the schedule.",
+        "B. Assess the delay’s impact.",
+        "C. Notify stakeholders.",
+        "D. Update the risk register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs response. Adjusting (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Business Environment",
+      "knowledge_area": "Risk Management"
+    },
+    {
+      "id": 75,
+      "question": "In a Scrum project, the team misses 30% of sprint goals. What should the Scrum Master do?",
+      "options": [
+        "A. Extend the sprint.",
+        "B. Conduct a retrospective.",
+        "C. Reduce the next sprint’s scope.",
+        "D. Report to the product owner."
+      ],
+      "correct_answer": "B",
+      "explanation": "A retrospective identifies causes of missed goals. Extending (A), reducing (C), or reporting (D) without analysis disrupts agile principles.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 76,
+      "question": "A project’s BAC = $500,000, EV = $200,000, AC = $220,000. What is the CV?",
+      "options": [
+        "A. -$20,000",
+        "B. $20,000",
+        "C. -$30,000",
+        "D. $30,000"
+      ],
+      "correct_answer": "A",
+      "explanation": "CV = EV - AC = 200,000 - 220,000 = -$20,000. Negative CV indicates over budget. B, C, D are incorrect.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 77,
+      "question": "A team member’s personal issues impact performance. What should you do FIRST?",
+      "options": [
+        "A. Reassign their tasks.",
+        "B. Discuss support options.",
+        "C. Report to HR.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "B",
+      "explanation": "Discussing support addresses performance empathetically. Reassigning (A), reporting (C), or ignoring (D) without discussion is less effective.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 78,
+      "question": "A stakeholder requests a costly change. What should you do FIRST?",
+      "options": [
+        "A. Approve the change.",
+        "B. Analyze the cost impact.",
+        "C. Escalate to the sponsor.",
+        "D. Reject the change."
+      ],
+      "correct_answer": "B",
+      "explanation": "Analyzing cost impact informs change control. Approving (A), escalating (C), or rejecting (D) without analysis skips governance.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 79,
+      "question": "A project’s critical path has no float. A task is delayed by 2 days. What is the impact?",
+      "options": [
+        "A. No impact.",
+        "B. Project delayed by 2 days.",
+        "C. Project delayed by 1 day.",
+        "D. Depends on resources."
+      ],
+      "correct_answer": "B",
+      "explanation": "No float means critical path delays delay the project. A 2-day task delay delays the project by 2 days. A, C, D are incorrect.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 80,
+      "question": "A stakeholder is unaware of project progress. What should you do FIRST?",
+      "options": [
+        "A. Send a status report.",
+        "B. Review the communication plan.",
+        "C. Escalate to the sponsor.",
+        "D. Update the stakeholder register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing the communication plan ensures stakeholder needs are met. Sending (A), escalating (C), or updating (D) without review may miss root causes.",
+      "domain": "People",
+      "knowledge_area": "Communications Management"
+    },
+    {
+      "id": 81,
+      "question": "A project’s quality standards are not met. What should you do FIRST?",
+      "options": [
+        "A. Rework deliverables.",
+        "B. Conduct a quality audit.",
+        "C. Escalate to QA team.",
+        "D. Update the quality plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "A quality audit identifies causes of non-compliance. Rework (A), escalating (C), or updating (D) without analysis is premature.",
+      "domain": "Process",
+      "knowledge_area": "Quality Management"
+    },
+    {
+      "id": 82,
+      "question": "A team member suggests a risky shortcut. What should you do?",
+      "options": [
+        "A. Approve the shortcut.",
+        "B. Assess the risk’s impact.",
+        "C. Reject the shortcut.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing risk informs the decision. Approving (A), rejecting (C), or escalating (D) without analysis skips process.",
+      "domain": "Process",
+      "knowledge_area": "Risk Management"
+    },
+    {
+      "id": 83,
+      "question": "In a Kanban project, WIP limits are exceeded. What should you do FIRST?",
+      "options": [
+        "A. Increase WIP limits.",
+        "B. Identify the bottleneck.",
+        "C. Add team members.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "B",
+      "explanation": "Identifying the bottleneck resolves WIP issues. Increasing (A), adding (C), or ignoring (D) without analysis may worsen flow.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 84,
+      "question": "A project’s SV = -$15,000. What does this indicate?",
+      "options": [
+        "A. Ahead of schedule.",
+        "B. Behind schedule.",
+        "C. Under budget.",
+        "D. Over budget."
+      ],
+      "correct_answer": "B",
+      "explanation": "SV = EV - PV. Negative SV (-$15,000) means behind schedule. A is incorrect (positive SV). C and D relate to cost.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 85,
+      "question": "A stakeholder requests a feature not in scope. What should you do FIRST?",
+      "options": [
+        "A. Add the feature.",
+        "B. Follow change control.",
+        "C. Reject the feature.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Change control evaluates the feature’s impact. Adding (A), rejecting (C), or escalating (D) without process undermines governance.",
+      "domain": "Process",
+      "knowledge_area": "Scope Management"
+    },
+    {
+      "id": 86,
+      "question": "A team member is over-allocated, causing delays. What should you do?",
+      "options": [
+        "A. Reassign tasks.",
+        "B. Hire additional staff.",
+        "C. Extend the schedule.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "A",
+      "explanation": "Reassigning tasks balances workload. Hiring (B) or extending (C) is premature, ignoring (D) worsens delays.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 87,
+      "question": "A project’s regulatory change increases costs. What should you do FIRST?",
+      "options": [
+        "A. Absorb the costs.",
+        "B. Assess the cost impact.",
+        "C. Notify the sponsor.",
+        "D. Update the budget."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs decisions. Absorbing (A), notifying (C), or updating (D) without analysis skips process.",
+      "domain": "Business Environment",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 88,
+      "question": "During a sprint, a team member is unavailable. What should the Scrum Master do?",
+      "options": [
+        "A. Cancel the sprint.",
+        "B. Adjust the sprint scope.",
+        "C. Replan with the team.",
+        "D. Extend the sprint."
+      ],
+      "correct_answer": "C",
+      "explanation": "Replanning with the team maintains sprint integrity. Canceling (A), adjusting (B), or extending (D) disrupts agile principles.",
+      "domain": "Process",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 89,
+      "question": "A project’s BAC = $700,000, CPI = 0.90. What is the EAC?",
+      "options": [
+        "A. $630,000",
+        "B. $777,778",
+        "C. $700,000",
+        "D. $800,000"
+      ],
+      "correct_answer": "B",
+      "explanation": "EAC = BAC / CPI = 700,000 / 0.90 = $777,778. A, C, D are incorrect calculations.",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    },
+    {
+      "id": 90,
+      "question": "A stakeholder misses meetings, delaying decisions. What should you do?",
+      "options": [
+        "A. Proceed without them.",
+        "B. Engage to understand barriers.",
+        "C. Escalate to the sponsor.",
+        "D. Remove them."
+      ],
+      "correct_answer": "B",
+      "explanation": "Engaging addresses barriers to participation. Proceeding (A), escalating (C), or removing (D) without communication is less effective.",
+      "domain": "People",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 91,
+      "question": "A project’s critical path task is delayed. What should you do FIRST?",
+      "options": [
+        "A. Crash the task.",
+        "B. Assess the delay’s impact.",
+        "C. Notify the sponsor.",
+        "D. Update the schedule."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs response. Crashing (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 92,
+      "question": "A team member lacks motivation, affecting performance. What should you do FIRST?",
+      "options": [
+        "A. Reassign their tasks.",
+        "B. Discuss their concerns.",
+        "C. Report to HR.",
+        "D. Ignore the issue."
+      ],
+      "correct_answer": "B",
+      "explanation": "Discussing concerns addresses motivation. Reassigning (A), reporting (C), or ignoring (D) without discussion is less effective.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 93,
+      "question": "A deliverable is rejected for non-compliance. What should you do FIRST?",
+      "options": [
+        "A. Rework the deliverable.",
+        "B. Review compliance requirements.",
+        "C. Escalate to the sponsor.",
+        "D. Update the quality plan."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing requirements clarifies non-compliance. Rework (A), escalating (C), or updating (D) without review is premature.",
+      "domain": "Process",
+      "knowledge_area": "Quality Management"
+    },
+    {
+      "id": 94,
+      "question": "A project’s stakeholders request conflicting changes. What should you do?",
+      "options": [
+        "A. Implement the changes.",
+        "B. Facilitate a resolution meeting.",
+        "C. Reject the changes.",
+        "D. Escalate to the sponsor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Facilitating a meeting resolves conflicts. Implementing (A), rejecting (C), or escalating (D) without discussion skips stakeholder engagement.",
+      "domain": "People",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 95,
+      "question": "A project’s SPI = 1.10. What does this indicate?",
+      "options": [
+        "A. Behind schedule.",
+        "B. Ahead of schedule.",
+        "C. Over budget.",
+        "D. Under budget."
+      ],
+      "correct_answer": "B",
+      "explanation": "SPI = EV / PV. SPI > 1 (1.10) means ahead of schedule. A is incorrect (SPI < 1). C and D relate to cost.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 96,
+      "question": "A vendor’s delivery is delayed, risking the critical path. What should you do FIRST?",
+      "options": [
+        "A. Terminate the contract.",
+        "B. Review the contract terms.",
+        "C. Escalate to vendor management.",
+        "D. Adjust the schedule."
+      ],
+      "correct_answer": "B",
+      "explanation": "Reviewing terms clarifies obligations. Terminating (A), escalating (C), or adjusting (D) without review is premature.",
+      "domain": "Process",
+      "knowledge_area": "Procurement Management"
+    },
+    {
+      "id": 97,
+      "question": "A team member resists agile adoption. What should you do FIRST?",
+      "options": [
+        "A. Remove them.",
+        "B. Provide agile training.",
+        "C. Ignore the resistance.",
+        "D. Escalate to HR."
+      ],
+      "correct_answer": "B",
+      "explanation": "Training addresses resistance constructively. Removing (A), ignoring (C), or escalating (D) without support is less effective.",
+      "domain": "People",
+      "knowledge_area": "Resource Management"
+    },
+    {
+      "id": 98,
+      "question": "A project’s regulation changes, requiring new processes. What should you do FIRST?",
+      "options": [
+        "A. Implement the processes.",
+        "B. Assess the impact.",
+        "C. Notify stakeholders.",
+        "D. Update the risk register."
+      ],
+      "correct_answer": "B",
+      "explanation": "Assessing impact informs response. Implementing (A), notifying (C), or updating (D) without analysis is premature.",
+      "domain": "Business Environment",
+      "knowledge_area": "Integration Management"
+    },
+    {
+      "id": 99,
+      "question": "In a Scrum project, stakeholders demand mid-sprint changes. What should the Scrum Master do?",
+      "options": [
+        "A. Allow the changes.",
+        "B. Educate on sprint stability.",
+        "C. Cancel the sprint.",
+        "D. Escalate to the product owner."
+      ],
+      "correct_answer": "B",
+      "explanation": "Educating maintains sprint focus. Allowing (A), canceling (C), or escalating (D) disrupts agile principles.",
+      "domain": "People",
+      "knowledge_area": "Agile Project Management"
+    },
+    {
+      "id": 100,
+      "question": "A project’s CV = $10,000. What does this indicate?",
       "options": [
         "A. Behind schedule.",
         "B. Ahead of schedule.",
@@ -43,4 +1401,4 @@
       "knowledge_area": "Cost Management"
     }
   ]
-} 
+}
