@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "You are managing a project with conflicting stakeholder interests. A key stakeholder requests additional features outside the agreed scope. What should you do FIRST?",
+      "options": [
+        "A. Approve the features to satisfy the stakeholder.",
+        "B. Update the project scope to include the features.",
+        "C. Analyze the impact of the requested changes.",
+        "D. Escalate to the project sponsor."
+      ],
+      "correct_answer": "C",
+      "explanation": "Analyze the impact first to assess effects on scope, schedule, and cost via the change control process. Approving (A) or updating scope (B) skips analysis. Escalating (D) is premature.",
+      "domain": "Process",
+      "knowledge_area": "Stakeholder Management"
+    },
+    {
+      "id": 2,
+      "question": "A task on the critical path is delayed due to resource unavailability. The sponsor insists on meeting the deadline. What is the BEST approach?",
+      "options": [
+        "A. Fast-track by overlapping tasks.",
+        "B. Reduce project scope.",
+        "C. Request additional resources.",
+        "D. Inform the sponsor the deadline cannot be met."
+      ],
+      "correct_answer": "A",
+      "explanation": "Fast-tracking compresses the schedule by overlapping tasks without changing scope. Reducing scope (B) needs approval, resources (C) may not be available, and conceding (D) is a last resort.",
+      "domain": "Process",
+      "knowledge_area": "Schedule Management"
+    },
+    {
+      "id": 3,
+      "question": "A project's CV = $10,000. What does this indicate?",
+      "options": [
+        "A. Behind schedule.",
+        "B. Ahead of schedule.",
+        "C. Under budget.",
+        "D. Over budget."
+      ],
+      "correct_answer": "C",
+      "explanation": "CV = EV - AC. Positive CV ($10,000) means under budget. A and B relate to schedule, D is incorrect (negative CV).",
+      "domain": "Process",
+      "knowledge_area": "Cost Management"
+    }
+  ]
+} 
