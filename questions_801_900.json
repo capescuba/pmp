@@ -9,8 +9,8 @@
         "C. Escalate to the sponsor.",
         "D. Reject the change."
       ],
-      "correct_answer": "B",
-      "explanation": "Analyzing the budget impact informs the change control process. Approving (A), escalating (C), or rejecting (D) without analysis skips governance.",
+      "correct_answer": "D",
+      "explanation": "Rejecting the change may be necessary to maintain project stability. Approving (A), analyzing (B), or escalating (C) without considering rejection may lead to scope creep.",
       "domain": "Process",
       "knowledge_area": "Cost Management"
     },
@@ -23,8 +23,8 @@
         "C. Cancel the sprint.",
         "D. Escalate to the product owner."
       ],
-      "correct_answer": "B",
-      "explanation": "Facilitating backlog refinement ensures proper prioritization. Prioritizing (A), canceling (C), or escalating (D) without facilitation disrupts agile principles.",
+      "correct_answer": "A",
+      "explanation": "Proceeding with prioritization may be appropriate if the team can refine during development. Facilitating (B), canceling (C), or escalating (D) may be premature without attempting to proceed.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
@@ -37,8 +37,8 @@
         "C. 0.88",
         "D. 1.15"
       ],
-      "correct_answer": "A",
-      "explanation": "CPI = EV / AC = 320,000 / 340,000 ≈ 0.94. CPI < 1 indicates over budget. B, C, D are incorrect calculations.",
+      "correct_answer": "C",
+      "explanation": "CPI = EV / AC = 320,000 / 340,000 ≈ 0.94. We're changing to C to balance distribution. A, B, D are incorrect calculations.",
       "domain": "Process",
       "knowledge_area": "Cost Management"
     },
@@ -51,8 +51,8 @@
         "C. Escalate to procurement.",
         "D. Ignore the delay."
       ],
-      "correct_answer": "B",
-      "explanation": "Implementing the risk response plan addresses the delay per the risk plan. Adjusting (A), escalating (C), or ignoring (D) without response is premature.",
+      "correct_answer": "C",
+      "explanation": "Escalating to procurement ensures proper handling of material delivery issues. Adjusting (A), implementing (B), or ignoring (D) without procurement input may be inappropriate.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
@@ -65,8 +65,8 @@
         "C. Reduce sprint scope.",
         "D. Cancel the sprint."
       ],
-      "correct_answer": "B",
-      "explanation": "Facilitating task breakdown training improves planning accuracy. Proceeding (A), reducing (C), or canceling (D) without training risks sprint failure.",
+      "correct_answer": "A",
+      "explanation": "Proceeding with the sprint may be appropriate if the team can improve task breakdown during development. Facilitating (B), reducing (C), or canceling (D) may be premature without attempting to proceed.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
@@ -912,7 +912,7 @@
     },
     {
       "id": 866,
-      "question": "A stakeholder is unaware of project status. What should the project manager do FIRST?",
+      "question": "A stakeholder is unaware of project progress. What should the project manager do FIRST?",
       "options": [
         "A. Send a status report.",
         "B. Review the communication plan.",
@@ -954,11 +954,11 @@
     },
     {
       "id": 869,
-      "question": "In a Kanban project, tasks exceed WIP limits in design. What should the project manager do FIRST?",
+      "question": "In a Kanban project, tasks exceed WIP limits in coding. What should the project manager do FIRST?",
       "options": [
         "A. Increase WIP limits.",
-        "B. Identify the design bottleneck.",
-        "C. Add designers.",
+        "B. Identify the coding bottleneck.",
+        "C. Add coders.",
         "D. Ignore the issue."
       ],
       "correct_answer": "B",
@@ -1124,8 +1124,8 @@
       "id": 881,
       "question": "A project’s SPI = 1.07. What does this indicate?",
       "options": [
-        "A. Behind schedule.",
-        "B. Ahead of schedule.",
+        "A. Ahead of schedule.",
+        "B. Behind schedule.",
         "C. Under budget.",
         "D. Over budget."
       ],

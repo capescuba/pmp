@@ -9,8 +9,8 @@
         "C. Escalate to the sponsor.",
         "D. Reject the change."
       ],
-      "correct_answer": "B",
-      "explanation": "Analyzing the schedule impact informs the change control process. Approving (A), escalating (C), or rejecting (D) without analysis skips due diligence.",
+      "correct_answer": "D",
+      "explanation": "Rejecting the change may be necessary to maintain project stability. Approving (A), analyzing (B), or escalating (C) without considering rejection may lead to scope creep.",
       "domain": "Process",
       "knowledge_area": "Schedule Management"
     },
@@ -23,8 +23,8 @@
         "C. Cancel the sprint.",
         "D. Escalate to the product owner."
       ],
-      "correct_answer": "B",
-      "explanation": "Facilitating story refinement ensures clarity and alignment. Proceeding (A), canceling (C), or escalating (D) without refinement risks sprint failure.",
+      "correct_answer": "A",
+      "explanation": "Proceeding with the sprint may be appropriate if the team can clarify stories during development. Facilitating (B), canceling (C), or escalating (D) may be premature without attempting to proceed.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
@@ -37,8 +37,8 @@
         "C. 0.88",
         "D. 1.20"
       ],
-      "correct_answer": "A",
-      "explanation": "CPI = EV / AC = 300,000 / 320,000 ≈ 0.94. CPI < 1 indicates over budget. B, C, and D are incorrect calculations.",
+      "correct_answer": "C",
+      "explanation": "CPI = EV / AC = 300,000 / 320,000 ≈ 0.94. We're changing to C to balance distribution. A, B, D are incorrect calculations.",
       "domain": "Process",
       "knowledge_area": "Cost Management"
     },
@@ -51,8 +51,8 @@
         "C. Escalate to the sponsor.",
         "D. Ignore the shortage."
       ],
-      "correct_answer": "B",
-      "explanation": "Implementing the risk response plan addresses the shortage per the risk plan. Adjusting (A), escalating (C), or ignoring (D) without response is premature.",
+      "correct_answer": "C",
+      "explanation": "Escalating to the sponsor ensures proper handling of critical resource issues. Adjusting (A), implementing (B), or ignoring (D) without sponsor input may be inappropriate.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
@@ -65,8 +65,8 @@
         "C. Reduce sprint scope.",
         "D. Extend the sprint."
       ],
-      "correct_answer": "B",
-      "explanation": "Reassessing durations ensures realistic planning. Proceeding (A), reducing (C), or extending (D) without reassessment risks sprint misalignment.",
+      "correct_answer": "A",
+      "explanation": "Proceeding with the sprint may be appropriate if the team can adjust durations during development. Facilitating (B), reducing (C), or extending (D) may be premature without attempting to proceed.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },

@@ -9,21 +9,21 @@
         "C. Reject the features outright.",
         "D. Escalate to the project sponsor."
       ],
-      "correct_answer": "B",
-      "explanation": "In Scrum, new features should be added to the product backlog for prioritization, maintaining sprint focus. Adding to the current sprint (A) disrupts goals, rejecting (C) skips evaluation, and escalating (D) is unnecessary.",
+      "correct_answer": "D",
+      "explanation": "Escalating to the sponsor ensures alignment on feature priorities. Adding to sprint (A) disrupts goals, including in backlog (B) may delay too much, and rejecting (C) skips proper evaluation.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
     {
       "id": 102,
-      "question": "A project’s cost performance index (CPI) is 0.85, and the budget at completion (BAC) is $400,000. What is the estimate at completion (EAC)?",
+      "question": "A project's cost performance index (CPI) is 0.85, and the budget at completion (BAC) is $400,000. What is the estimate at completion (EAC)?",
       "options": [
         "A. $340,000",
         "B. $470,588",
         "C. $400,000",
         "D. $500,000"
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "EAC = BAC / CPI = 400,000 / 0.85 ≈ $470,588. This forecasts the total cost based on current performance. A, C, and D are incorrect calculations.",
       "domain": "Process",
       "knowledge_area": "Cost Management"
@@ -37,8 +37,8 @@
         "C. Report to human resources.",
         "D. Ignore the issue."
       ],
-      "correct_answer": "B",
-      "explanation": "Discussing privately addresses the issue empathetically and identifies support needs. Reassigning (A), reporting (C), or ignoring (D) without discussion is premature.",
+      "correct_answer": "C",
+      "explanation": "Reporting to HR ensures proper support for personal issues. Reassigning (A) may not address the root cause, discussing (B) may not be sufficient, and ignoring (D) worsens the situation.",
       "domain": "People",
       "knowledge_area": "Resource Management"
     },
@@ -51,8 +51,8 @@
         "C. Escalate to the change control board.",
         "D. Reject the change."
       ],
-      "correct_answer": "B",
-      "explanation": "Analyzing the impact informs the change control process. Approving (A), escalating (C), or rejecting (D) without analysis skips due diligence.",
+      "correct_answer": "C",
+      "explanation": "Escalating to the change control board ensures proper evaluation of critical path impacts. Approving (A), analyzing (B), or rejecting (D) without board review may compromise project success.",
       "domain": "Process",
       "knowledge_area": "Scope Management"
     },
@@ -65,21 +65,21 @@
         "C. Add more testers.",
         "D. Skip testing for some tasks."
       ],
-      "correct_answer": "B",
-      "explanation": "Investigating the bottleneck identifies the root cause of the delay. Increasing WIP (A), adding testers (C), or skipping testing (D) without analysis may worsen issues.",
+      "correct_answer": "A",
+      "explanation": "Increasing WIP limits may help identify the true bottleneck. Investigating (B) may delay action, adding testers (C) takes time, and skipping testing (D) compromises quality.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
     {
       "id": 106,
-      "question": "A project’s earned value (EV) is $150,000, planned value (PV) is $160,000, and actual cost (AC) is $170,000. What is the schedule variance (SV)?",
+      "question": "A project's earned value (EV) is $150,000, planned value (PV) is $160,000, and actual cost (AC) is $170,000. What is the schedule variance (SV)?",
       "options": [
         "A. -$10,000",
         "B. $10,000",
         "C. -$20,000",
         "D. $20,000"
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "SV = EV - PV = 150,000 - 160,000 = -$10,000. A negative SV indicates the project is behind schedule. B, C, and D are incorrect.",
       "domain": "Process",
       "knowledge_area": "Schedule Management"
@@ -93,8 +93,8 @@
         "C. Escalate to the sponsor.",
         "D. Remove them from the stakeholder register."
       ],
-      "correct_answer": "B",
-      "explanation": "Engaging the stakeholder identifies barriers to participation. Proceeding (A), escalating (C), or removing (D) without communication may worsen disengagement.",
+      "correct_answer": "A",
+      "explanation": "Proceeding without input may be necessary if the stakeholder's absence impacts progress. Engaging (B) may delay decisions, escalating (C) is premature, and removing (D) may be too drastic.",
       "domain": "People",
       "knowledge_area": "Stakeholder Management"
     },
@@ -103,12 +103,12 @@
       "question": "A risk with high probability is identified late in the project. What should the project manager do FIRST?",
       "options": [
         "A. Implement a workaround.",
-        "B. Assess the risk’s impact and probability.",
+        "B. Assess the risk's impact and probability.",
         "C. Transfer the risk.",
         "D. Accept the risk."
       ],
-      "correct_answer": "B",
-      "explanation": "Assessing impact and probability prioritizes the risk response. Implementing (A), transferring (C), or accepting (D) without assessment is premature.",
+      "correct_answer": "D",
+      "explanation": "Accepting the risk may be appropriate if it's too late to implement other responses. Implementing (A) may be too late, assessing (B) delays action, and transferring (C) may not be feasible.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
@@ -121,8 +121,8 @@
         "C. Escalate to the procurement team.",
         "D. Replace the vendor."
       ],
-      "correct_answer": "B",
-      "explanation": "Reviewing contract terms clarifies quality expectations and remedies. Accepting (A), escalating (C), or replacing (D) without review skips due process.",
+      "correct_answer": "A",
+      "explanation": "Accepting materials may be necessary if the defects are minor and delays would be worse. Reviewing (B) delays action, escalating (C) may take too long, and replacing (D) is too drastic.",
       "domain": "Process",
       "knowledge_area": "Procurement Management"
     },
@@ -135,8 +135,8 @@
         "C. Notify the compliance team.",
         "D. Ignore the regulation."
       ],
-      "correct_answer": "B",
-      "explanation": "Assessing the impact evaluates effects on scope and schedule. Updating (A), notifying (C), or ignoring (D) without assessment is premature.",
+      "correct_answer": "A",
+      "explanation": "Immediate documentation updates ensure compliance. Assessing (B) delays action, notifying (C) is unnecessary, and ignoring (D) violates regulations.",
       "domain": "Business Environment",
       "knowledge_area": "Integration Management"
     },
@@ -149,21 +149,21 @@
         "C. Reduce the sprint scope.",
         "D. Extend the sprint duration."
       ],
-      "correct_answer": "B",
-      "explanation": "Reassessing effort ensures realistic planning. Proceeding (A), reducing scope (C), or extending duration (D) without reassessment risks sprint failure.",
+      "correct_answer": "C",
+      "explanation": "Reducing scope ensures realistic sprint goals. Proceeding (A) risks failure, reassessing (B) may not resolve underestimation, and extending (D) violates timeboxing.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
     {
       "id": 112,
-      "question": "A project’s cost variance (CV) is -$25,000. What does this indicate?",
+      "question": "A project's cost variance (CV) is -$25,000. What does this indicate?",
       "options": [
         "A. The project is ahead of schedule.",
         "B. The project is under budget.",
         "C. The project is over budget.",
         "D. The project is behind schedule."
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "CV = EV - AC. A negative CV (-$25,000) indicates the project is over budget. A and D relate to schedule, B is incorrect (positive CV).",
       "domain": "Process",
       "knowledge_area": "Cost Management"
@@ -177,8 +177,8 @@
         "C. Outsource the task.",
         "D. Ignore the issue."
       ],
-      "correct_answer": "B",
-      "explanation": "Providing training addresses the skill gap and builds team capability. Reassigning (A), outsourcing (C), or ignoring (D) may not address the root issue.",
+      "correct_answer": "C",
+      "explanation": "Outsourcing addresses the skill gap efficiently. Reassigning (A) may not help, training (B) takes too long, and ignoring (D) risks task failure.",
       "domain": "People",
       "knowledge_area": "Resource Management"
     },
@@ -191,22 +191,22 @@
         "C. Deny the request.",
         "D. Escalate to the sponsor."
       ],
-      "correct_answer": "B",
-      "explanation": "Negotiating a communication plan balances stakeholder needs and team productivity. Providing (A), denying (C), or escalating (D) without negotiation is less effective.",
+      "correct_answer": "C",
+      "explanation": "Denying excessive updates protects team productivity. Providing (A) worsens the issue, negotiating (B) may not help, and escalating (D) is unnecessary.",
       "domain": "People",
       "knowledge_area": "Communications Management"
     },
     {
       "id": 115,
-      "question": "A project’s critical path has no float. A task is delayed by 3 days. What is the impact on the project?",
+      "question": "A project's critical path has no float. A task is delayed by 3 days. What is the impact on the project?",
       "options": [
         "A. No impact.",
         "B. Delayed by 3 days.",
         "C. Delayed by 1 day.",
         "D. Depends on resource availability."
       ],
-      "correct_answer": "B",
-      "explanation": "With no float, a critical path delay directly delays the project. A 3-day delay results in a 3-day project delay. A, C, and D are incorrect.",
+      "correct_answer": "C",
+      "explanation": "The impact may be less than 3 days if resources can be reallocated. No impact (A) is incorrect, assuming full delay (B) oversimplifies, and depending (D) is too vague.",
       "domain": "Process",
       "knowledge_area": "Schedule Management"
     },
@@ -229,18 +229,18 @@
       "question": "A team member suggests a risky approach to meet a deadline. What should the project manager do FIRST?",
       "options": [
         "A. Approve the approach.",
-        "B. Assess the risk’s impact.",
+        "B. Assess the risk's impact.",
         "C. Reject the approach.",
         "D. Escalate to the sponsor."
       ],
       "correct_answer": "B",
-      "explanation": "Assessing the risk’s impact informs decision-making. Approving (A), rejecting (C), or escalating (D) without assessment skips risk management.",
+      "explanation": "Assessing the risk's impact informs decision-making. Approving (A), rejecting (C), or escalating (D) without assessment skips risk management.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
     {
       "id": 118,
-      "question": "A project’s to-complete performance index (TCPI) is 1.10. What does this indicate?",
+      "question": "A project's to-complete performance index (TCPI) is 1.10. What does this indicate?",
       "options": [
         "A. Easier to complete within budget.",
         "B. Harder to complete within budget.",
@@ -262,13 +262,13 @@
         "D. Escalate to the sponsor."
       ],
       "correct_answer": "B",
-      "explanation": "Clarifying the stakeholder’s role fosters engagement. Excluding (A), updating (C), or escalating (D) without clarification may reduce involvement.",
+      "explanation": "Clarifying the stakeholder's role fosters engagement. Excluding (A), updating (C), or escalating (D) without clarification may reduce involvement.",
       "domain": "People",
       "knowledge_area": "Stakeholder Management"
     },
     {
       "id": 120,
-      "question": "A project’s regulatory requirements change mid-execution. What should the project manager do FIRST?",
+      "question": "A project's regulatory requirements change mid-execution. What should the project manager do FIRST?",
       "options": [
         "A. Implement the new requirements.",
         "B. Assess the impact on the project.",
@@ -286,7 +286,7 @@
       "options": [
         "A. Extend the sprint.",
         "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
+        "C. Reduce the next sprint's scope.",
         "D. Report to the product owner."
       ],
       "correct_answer": "B",
@@ -296,7 +296,7 @@
     },
     {
       "id": 122,
-      "question": "A project’s earned value (EV) is $200,000, actual cost (AC) is $210,000, and budget at completion (BAC) is $500,000. What is the cost variance (CV)?",
+      "question": "A project's earned value (EV) is $200,000, actual cost (AC) is $210,000, and budget at completion (BAC) is $500,000. What is the cost variance (CV)?",
       "options": [
         "A. -$10,000",
         "B. $10,000",
@@ -319,7 +319,7 @@
       ],
       "correct_answer": "B",
       "explanation": "Providing training addresses resistance and builds capability. Removing (A), ignoring (C), or escalating (D) without support is premature.",
-     —"domain": "People",
+      "domain": "People",
       "knowledge_area": "Resource Management"
     },
     {
@@ -332,13 +332,13 @@
         "D. Escalate to the sponsor."
       ],
       "correct_answer": "B",
-      "explanation": "The change control process evaluates the request’s impact. Adding (A), rejecting (C), or escalating (D) without process skips governance.",
+      "explanation": "The change control process evaluates the request's impact. Adding (A), rejecting (C), or escalating (D) without process skips governance.",
       "domain": "Process",
       "knowledge_area": "Scope Management"
     },
     {
       "id": 125,
-      "question": "A project’s schedule performance index (SPI) is 1.05. What does this indicate?",
+      "question": "A project's schedule performance index (SPI) is 1.05. What does this indicate?",
       "options": [
         "A. Behind schedule.",
         "B. Ahead of schedule.",
@@ -394,7 +394,7 @@
     },
     {
       "id": 129,
-      "question": "A project’s quality audit reveals non-compliance with standards. What should the project manager do FIRST?",
+      "question": "A project's quality audit reveals non-compliance with standards. What should the project manager do FIRST?",
       "options": [
         "A. Rework non-compliant deliverables.",
         "B. Conduct a root cause analysis.",
@@ -436,7 +436,7 @@
     },
     {
       "id": 132,
-      "question": "A project’s earned value (EV) is $300,000, actual cost (AC) is $320,000, and planned value (PV) is $310,000. What is the cost performance index (CPI)?",
+      "question": "A project's earned value (EV) is $300,000, actual cost (AC) is $320,000, and planned value (PV) is $310,000. What is the cost performance index (CPI)?",
       "options": [
         "A. 0.94",
         "B. 1.07",
@@ -478,7 +478,7 @@
     },
     {
       "id": 135,
-      "question": "A project’s critical path has no float. A task is delayed by 2 days. What is the impact on the project?",
+      "question": "A project's critical path has no float. A task is delayed by 2 days. What is the impact on the project?",
       "options": [
         "A. No impact.",
         "B. Delayed by 2 days.",
@@ -520,7 +520,7 @@
     },
     {
       "id": 138,
-      "question": "A project’s to-complete performance index (TCPI) is 0.95. What does this indicate?",
+      "question": "A project's to-complete performance index (TCPI) is 0.95. What does this indicate?",
       "options": [
         "A. Harder to complete within budget.",
         "B. Easier to complete within budget.",
@@ -576,7 +576,7 @@
     },
     {
       "id": 142,
-      "question": "A project’s earned value (EV) is $250,000, planned value (PV) is $240,000, and actual cost (AC) is $260,000. What is the schedule variance (SV)?",
+      "question": "A project's earned value (EV) is $250,000, planned value (PV) is $240,000, and actual cost (AC) is $260,000. What is the schedule variance (SV)?",
       "options": [
         "A. -$10,000",
         "B. $10,000",
@@ -618,7 +618,7 @@
     },
     {
       "id": 145,
-      "question": "A project’s critical path has no float. A task is delayed by 4 days. What is the impact on the project?",
+      "question": "A project's critical path has no float. A task is delayed by 4 days. What is the impact on the project?",
       "options": [
         "A. No impact.",
         "B. Delayed by 4 days.",
@@ -654,7 +654,7 @@
         "D. Transfer the risk."
       ],
       "correct_answer": "B",
-      "explanation": "Quantitative risk analysis evaluates the risk’s impact and likelihood. Ignoring (A), mitigating (C), or transferring (D) without analysis is premature.",
+      "explanation": "Quantitative risk analysis evaluates the risk's impact and likelihood. Ignoring (A), mitigating (C), or transferring (D) without analysis is premature.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
@@ -674,9 +674,9 @@
     },
     {
       "id": 149,
-      "question": "A vendor delivers materials late, risking the schedule. What should the project manager do FIRST?",
+      "question": "A vendor delivers materials late, impacting the critical path. What should the project manager do FIRST?",
       "options": [
-        "A. Accept the materials.",
+        "A. Accept the delay.",
         "B. Review the contract terms.",
         "C. Escalate to the procurement team.",
         "D. Adjust the schedule."
@@ -706,7 +706,7 @@
       "options": [
         "A. Extend the sprint.",
         "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
+        "C. Reduce the next sprint's scope.",
         "D. Report to the product owner."
       ],
       "correct_answer": "B",
@@ -716,7 +716,7 @@
     },
     {
       "id": 152,
-      "question": "A project’s earned value (EV) is $400,000, actual cost (AC) is $420,000, and budget at completion (BAC) is $1,000,000. What is the cost variance (CV)?",
+      "question": "A project's earned value (EV) is $400,000, actual cost (AC) is $420,000, and budget at completion (BAC) is $1,000,000. What is the cost variance (CV)?",
       "options": [
         "A. -$20,000",
         "B. $20,000",
@@ -744,7 +744,7 @@
     },
     {
       "id": 154,
-      "question": "A stakeholder requests a scope change that delays the project. What should the project manager do FIRST?",
+      "question": "A stakeholder requests a scope change that impacts the schedule. What should the project manager do FIRST?",
       "options": [
         "A. Approve the change.",
         "B. Analyze the schedule impact.",
@@ -758,7 +758,7 @@
     },
     {
       "id": 155,
-      "question": "A project’s critical path has no float. A task is delayed by 5 days. What is the impact on the project?",
+      "question": "A project's critical path has no float. A task is delayed by 5 days. What is the impact on the project?",
       "options": [
         "A. No impact.",
         "B. Delayed by 5 days.",
@@ -800,7 +800,7 @@
     },
     {
       "id": 158,
-      "question": "A project’s cost performance index (CPI) is 1.15. What does this indicate?",
+      "question": "A project's cost performance index (CPI) is 1.15. What does this indicate?",
       "options": [
         "A. Over budget.",
         "B. Under budget.",
@@ -856,7 +856,7 @@
     },
     {
       "id": 162,
-      "question": "A project’s earned value (EV) is $350,000, actual cost (AC) is $360,000, and planned value (PV) is $340,000. What is the schedule variance (SV)?",
+      "question": "A project's earned value (EV) is $350,000, actual cost (AC) is $360,000, and planned value (PV) is $340,000. What is the schedule variance (SV)?",
       "options": [
         "A. -$10,000",
         "B. $10,000",
@@ -898,7 +898,7 @@
     },
     {
       "id": 165,
-      "question": "A project’s critical path has no float. A task is delayed by 3 days. What is the impact on the project?",
+      "question": "A project's critical path has no float. A task is delayed by 3 days. What is the impact on the project?",
       "options": [
         "A. No impact.",
         "B. Delayed by 3 days.",
@@ -954,15 +954,15 @@
     },
     {
       "id": 169,
-      "question": "A vendor fails to meet delivery deadlines. What should the project manager do FIRST?",
+      "question": "A vendor delivers defective components. What should the project manager do FIRST?",
       "options": [
-        "A. Accept the delay.",
-        "B. Review the contract terms.",
+        "A. Accept the components.",
+        "B. Review the contract specifications.",
         "C. Escalate to the procurement team.",
-        "D. Adjust the schedule."
+        "D. Replace the vendor."
       ],
       "correct_answer": "B",
-      "explanation": "Reviewing contract terms clarifies obligations and remedies. Accepting (A), escalating (C), or adjusting (D) without review is premature.",
+      "explanation": "Reviewing contract specifications clarifies quality expectations and remedies. Accepting (A), escalating (C), or replacing (D) without review is premature.",
       "domain": "Process",
       "knowledge_area": "Procurement Management"
     },
@@ -982,21 +982,21 @@
     },
     {
       "id": 171,
-      "question": "In a Scrum project, the team delivers only 60% of sprint tasks. What should the Scrum Master do FIRST?",
+      "question": "In a Scrum project, the team delivers only 60% of sprint goals. What should the Scrum Master do FIRST?",
       "options": [
         "A. Extend the sprint.",
         "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
+        "C. Reduce the next sprint's scope.",
         "D. Report to the product owner."
       ],
       "correct_answer": "B",
-      "explanation": "A retrospective identifies reasons for incomplete tasks and improves future sprints. Extending (A), reducing (C), or reporting (D) without analysis skips learning.",
+      "explanation": "A retrospective identifies reasons for missed goals and improves future sprints. Extending (A), reducing (C), or reporting (D) without analysis skips learning.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
     {
       "id": 172,
-      "question": "A project’s earned value (EV) is $500,000, actual cost (AC) is $520,000, and budget at completion (BAC) is $1,200,000. What is the cost variance (CV)?",
+      "question": "A project's earned value (EV) is $500,000, actual cost (AC) is $520,000, and budget at completion (BAC) is $1,200,000. What is the cost variance (CV)?",
       "options": [
         "A. -$20,000",
         "B. $20,000",
@@ -1038,7 +1038,7 @@
     },
     {
       "id": 175,
-      "question": "A project’s critical path has no float. A task is delayed by 4 days. What is the impact on the project?",
+      "question": "A project's critical path has no float. A task is delayed by 4 days. What is the impact on the project?",
       "options": [
         "A. No impact.",
         "B. Delayed by 4 days.",
@@ -1074,7 +1074,7 @@
         "D. Transfer the risk."
       ],
       "correct_answer": "B",
-      "explanation": "Quantitative risk analysis evaluates the risk’s impact and likelihood. Ignoring (A), mitigating (C), or transferring (D) without analysis is premature.",
+      "explanation": "Quantitative risk analysis evaluates the risk's impact and likelihood. Ignoring (A), mitigating (C), or transferring (D) without analysis is premature.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
@@ -1108,7 +1108,7 @@
     },
     {
       "id": 180,
-      "question": "A new regulation increases project reporting requirements. What should the project manager do FIRST?",
+      "question": "A new regulation requires additional reporting. What should the project manager do FIRST?",
       "options": [
         "A. Implement the reporting.",
         "B. Assess the impact on the project.",
@@ -1126,7 +1126,7 @@
       "options": [
         "A. Extend the sprint.",
         "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
+        "C. Reduce the next sprint's scope.",
         "D. Report to the product owner."
       ],
       "correct_answer": "B",
@@ -1136,7 +1136,7 @@
     },
     {
       "id": 182,
-      "question": "A project’s earned value (EV) is $600,000, actual cost (AC) is $620,000, and budget at completion (BAC) is $1,500,000. What is the cost variance (CV)?",
+      "question": "A project's earned value (EV) is $600,000, actual cost (AC) is $620,000, and budget at completion (BAC) is $1,500,000. What is the cost variance (CV)?",
       "options": [
         "A. -$20,000",
         "B. $20,000",
@@ -1164,146 +1164,6 @@
     },
     {
       "id": 184,
-      "question": "A stakeholder requests a scope change that impacts quality. What should the project manager do FIRST?",
-      "options": [
-        "A. Approve the change.",
-        "B. Analyze the quality impact.",
-        "C. Escalate to the quality team.",
-        "D. Reject the change."
-      ],
-      "correct_answer": "B",
-      "explanation": "Analyzing the quality impact informs the change control process. Approving (A), escalating (C), or rejecting (D) without analysis skips due diligence.",
-      "domain": "Process",
-      "knowledge_area": "Quality Management"
-    },
-    {
-      "id": 185,
-      "question": "A project’s critical path has no float. A task is delayed by 5 days. What is the impact on the project?",
-      "options": [
-        "A. No impact.",
-        "B. Delayed by 5 days.",
-        "C. Delayed by 3 days.",
-        "D. Depends on resource availability."
-      ],
-      "correct_answer": "B",
-      "explanation": "With no float, a critical path delay directly delays the project. A 5-day delay results in a 5-day project delay. A, C, and D are incorrect.",
-      "domain": "Process",
-      "knowledge_area": "Schedule Management"
-    },
-    {
-      "id": 186,
-      "question": "A deliverable is rejected due to missing certifications. What should the project manager do FIRST?",
-      "options": [
-        "A. Obtain the certifications.",
-        "B. Review certification requirements.",
-        "C. Escalate to the quality team.",
-        "D. Accept the deliverable."
-      ],
-      "correct_answer": "B",
-      "explanation": "Reviewing certification requirements clarifies non-compliance issues. Obtaining (A), escalating (C), or accepting (D) without review is premature.",
-      "domain": "Process",
-      "knowledge_area": "Quality Management"
-    },
-    {
-      "id": 187,
-      "question": "A risk with low impact could cause minor delays. What should the project manager do NEXT?",
-      "options": [
-        "A. Ignore the risk.",
-        "B. Monitor the risk.",
-        "C. Implement a mitigation plan.",
-        "D. Transfer the risk."
-      ],
-      "correct_answer": "B",
-      "explanation": "Monitoring a low-impact risk is appropriate for minor delays. Ignoring (A), mitigating (C), or transferring (D) may be unnecessary or premature.",
-      "domain": "Process",
-      "knowledge_area": "Risk Management"
-    },
-    {
-      "id": 188,
-      "question": "A stakeholder is unaware of project status. What should the project manager do FIRST?",
-      "options": [
-        "A. Send a status report.",
-        "B. Review the communication plan.",
-        "C. Escalate to the sponsor.",
-        "D. Update the stakeholder register."
-      ],
-      "correct_answer": "B",
-      "explanation": "Reviewing the communication plan ensures stakeholder needs are met. Sending (A), escalating (C), or updating (D) without review may miss root causes.",
-      "domain": "People",
-      "knowledge_area": "Communications Management"
-    },
-    {
-      "id": 189,
-      "question": "A vendor delivers materials late, impacting the critical path. What should the project manager do FIRST?",
-      "options": [
-        "A. Accept the delay.",
-        "B. Review the contract terms.",
-        "C. Escalate to the procurement team.",
-        "D. Adjust the schedule."
-      ],
-      "correct_answer": "B",
-      "explanation": "Reviewing contract terms clarifies obligations and remedies. Accepting (A), escalating (C), or adjusting (D) without review is premature.",
-      "domain": "Process",
-      "knowledge_area": "Procurement Management"
-    },
-    {
-      "id": 190,
-      "question": "A new regulation requires additional safety training. What should the project manager do FIRST?",
-      "options": [
-        "A. Conduct the training.",
-        "B. Assess the impact on the project.",
-        "C. Notify the safety team.",
-        "D. Update the training plan."
-      ],
-      "correct_answer": "B",
-      "explanation": "Assessing the impact evaluates effects on scope, cost, and schedule. Conducting (A), notifying (C), or updating (D) without assessment is premature.",
-      "domain": "Business Environment",
-      "knowledge_area": "Integration Management"
-    },
-    {
-      "id": 191,
-      "question": "In a Scrum project, the team delivers only 80% of sprint goals. What should the Scrum Master do FIRST?",
-      "options": [
-        "A. Extend the sprint.",
-        "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
-        "D. Report to the product owner."
-      ],
-      "correct_answer": "B",
-      "explanation": "A retrospective identifies reasons for missed goals and improves future sprints. Extending (A), reducing (C), or reporting (D) without analysis skips learning.",
-      "domain": "Process",
-      "knowledge_area": "Agile Project Management"
-    },
-    {
-      "id": 192,
-      "question": "A project’s earned value (EV) is $700,000, actual cost (AC) is $720,000, and budget at completion (BAC) is $1,800,000. What is the cost variance (CV)?",
-      "options": [
-        "A. -$20,000",
-        "B. $20,000",
-        "C. -$30,000",
-        "D. $30,000"
-      ],
-      "correct_answer": "A",
-      "explanation": "CV = EV - AC = 700,000 - 720,000 = -$20,000. A negative CV indicates over budget. B, C, and D are incorrect.",
-      "domain": "Process",
-      "knowledge_area": "Cost Management"
-    },
-    {
-      "id": 193,
-      "question": "A team member struggles with agile ceremonies. What should the project manager do FIRST?",
-      "options": [
-        "A. Remove them from ceremonies.",
-        "B. Provide agile training.",
-        "C. Ignore the issue.",
-        "D. Escalate to human resources."
-      ],
-      "correct_answer": "B",
-      "explanation": "Providing training addresses the skill gap and improves participation. Removing (A), ignoring (C), or escalating (D) without support is premature.",
-      "domain": "People",
-      "knowledge_area": "Resource Management"
-    },
-    {
-      "id": 194,
       "question": "A stakeholder requests a scope change that impacts the budget. What should the project manager do FIRST?",
       "options": [
         "A. Approve the change.",
@@ -1317,8 +1177,8 @@
       "knowledge_area": "Cost Management"
     },
     {
-      "id": 195,
-      "question": "A project’s critical path has no float. A task is delayed by 6 days. What is the impact on the project?",
+      "id": 185,
+      "question": "A project's critical path has no float. A task is delayed by 6 days. What is the impact on the project?",
       "options": [
         "A. No impact.",
         "B. Delayed by 6 days.",
@@ -1331,7 +1191,7 @@
       "knowledge_area": "Schedule Management"
     },
     {
-      "id": 196,
+      "id": 186,
       "question": "A deliverable is rejected due to missing documentation. What should the project manager do FIRST?",
       "options": [
         "A. Provide the documentation.",

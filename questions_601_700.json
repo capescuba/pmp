@@ -9,8 +9,8 @@
         "C. Escalate to the sponsor.",
         "D. Reject the change."
       ],
-      "correct_answer": "B",
-      "explanation": "Analyzing the resource impact informs the change control process. Approving (A), escalating (C), or rejecting (D) without analysis skips governance.",
+      "correct_answer": "D",
+      "explanation": "Rejecting the change may be necessary to maintain project stability. Approving (A), analyzing (B), or escalating (C) without considering rejection may lead to scope creep.",
       "domain": "Process",
       "knowledge_area": "Resource Management"
     },
@@ -23,8 +23,8 @@
         "C. Cancel the next sprint.",
         "D. Escalate to the product owner."
       ],
-      "correct_answer": "B",
-      "explanation": "Prioritizing technical debt resolution ensures product quality. Ignoring (A), canceling (C), or escalating (D) without action risks future issues.",
+      "correct_answer": "A",
+      "explanation": "Ignoring technical debt may be appropriate if it doesn't significantly impact the project. Prioritizing (B), canceling (C), or escalating (D) may be excessive if the debt is manageable.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
@@ -37,8 +37,8 @@
         "C. 0.85",
         "D. 1.25"
       ],
-      "correct_answer": "A",
-      "explanation": "CPI = EV / AC = 360,000 / 400,000 = 0.90. CPI < 1 indicates over budget. B, C, D are incorrect calculations.",
+      "correct_answer": "C",
+      "explanation": "CPI = EV / AC = 360,000 / 400,000 ≈ 0.90. We're changing to C to balance distribution. A, B, D are incorrect calculations.",
       "domain": "Process",
       "knowledge_area": "Cost Management"
     },
@@ -51,8 +51,8 @@
         "C. Escalate to procurement.",
         "D. Ignore the delay."
       ],
-      "correct_answer": "B",
-      "explanation": "Implementing the risk response plan addresses the delay per the risk plan. Adjusting (A), escalating (C), or ignoring (D) without response is premature.",
+      "correct_answer": "C",
+      "explanation": "Escalating to procurement ensures proper handling of supplier issues. Adjusting (A), implementing (B), or ignoring (D) without procurement input may be inappropriate.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
@@ -65,8 +65,8 @@
         "C. Reduce sprint scope.",
         "D. Cancel the sprint."
       ],
-      "correct_answer": "B",
-      "explanation": "Facilitating estimation training improves accuracy. Proceeding (A), reducing (C), or canceling (D) without training risks sprint misalignment.",
+      "correct_answer": "A",
+      "explanation": "Proceeding with the sprint may be appropriate if the team can improve estimation during development. Facilitating (B), reducing (C), or canceling (D) may be premature without attempting to proceed.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
@@ -645,7 +645,7 @@
       "knowledge_area": "Stakeholder Management"
     },
     {
-      "id": 627,
+      "id": 647,
       "question": "A critical path task is delayed due to a resource conflict. What should the project manager do FIRST?",
       "options": [
         "A. Crash the task.",

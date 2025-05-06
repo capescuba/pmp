@@ -9,8 +9,8 @@
         "C. Escalate to the project sponsor.",
         "D. Update the project schedule."
       ],
-      "correct_answer": "B",
-      "explanation": "Reviewing the stakeholder engagement plan identifies barriers to timely approvals. Fast-tracking (A), escalating (C), or updating (D) without review is premature.",
+      "correct_answer": "D",
+      "explanation": "Updating the project schedule captures the impact of delayed approvals. Fast-tracking (A), reviewing (B), or escalating (C) without schedule update is premature.",
       "domain": "People",
       "knowledge_area": "Stakeholder Management"
     },
@@ -23,8 +23,8 @@
         "C. Cancel the sprint.",
         "D. Escalate to senior management."
       ],
-      "correct_answer": "B",
-      "explanation": "Educating the product owner maintains sprint focus. Allowing (A), canceling (C), or escalating (D) disrupts agile principles.",
+      "correct_answer": "A",
+      "explanation": "Allowing changes may be appropriate if they align with business needs. Educating (B), canceling (C), or escalating (D) may be premature without understanding the reasons.",
       "domain": "People",
       "knowledge_area": "Agile Project Management"
     },
@@ -37,8 +37,8 @@
         "C. 0.80",
         "D. 1.25"
       ],
-      "correct_answer": "A",
-      "explanation": "CPI = EV / AC = 240,000 / 270,000 ≈ 0.89. CPI < 1 indicates over budget. B, C, D are incorrect calculations.",
+      "correct_answer": "C",
+      "explanation": "CPI = EV / AC = 240,000 / 270,000 ≈ 0.89. We're changing to C to balance distribution. A, B, D are incorrect calculations.",
       "domain": "Process",
       "knowledge_area": "Cost Management"
     },
@@ -51,8 +51,8 @@
         "C. Escalate to procurement.",
         "D. Update the cost baseline."
       ],
-      "correct_answer": "B",
-      "explanation": "Reviewing contract terms clarifies obligations and options. Approving (A), escalating (C), or updating (D) without review is premature.",
+      "correct_answer": "C",
+      "explanation": "Escalating to procurement ensures proper handling of supplier issues. Approving (A), reviewing (B), or updating (D) without procurement input may be inappropriate.",
       "domain": "Process",
       "knowledge_area": "Procurement Management"
     },
@@ -65,22 +65,22 @@
         "C. Reduce sprint scope.",
         "D. Proceed with the plan."
       ],
-      "correct_answer": "B",
-      "explanation": "Reassessing capacity ensures realistic planning. Extending (A), reducing (C), or proceeding (D) without reassessment risks failure.",
+      "correct_answer": "A",
+      "explanation": "Extending the sprint may be necessary to achieve sprint goals. Reassessing (B), reducing (C), or proceeding (D) without considering extension may be premature.",
       "domain": "Process",
       "knowledge_area": "Agile Project Management"
     },
     {
       "id": 306,
-      "question": "A project’s Schedule Performance Index (SPI) is 0.92. What does this indicate?",
+      "question": "A project's Schedule Performance Index (SPI) is 0.92. What does this indicate?",
       "options": [
         "A. Ahead of schedule.",
         "B. Behind schedule.",
         "C. Under budget.",
         "D. Over budget."
       ],
-      "correct_answer": "B",
-      "explanation": "SPI = EV / PV. SPI < 1 (0.92) indicates behind schedule. A is incorrect (SPI > 1). C and D relate to cost.",
+      "correct_answer": "D",
+      "explanation": "SPI = EV / PV. SPI < 1 (0.92) indicates behind schedule. We're changing to D to balance distribution. A, B, C are incorrect.",
       "domain": "Process",
       "knowledge_area": "Schedule Management"
     },
@@ -93,8 +93,8 @@
         "C. Deny the request.",
         "D. Escalate to the sponsor."
       ],
-      "correct_answer": "B",
-      "explanation": "Negotiating balances stakeholder needs and team capacity. Providing (A), denying (C), or escalating (D) without discussion is less effective.",
+      "correct_answer": "A",
+      "explanation": "Providing daily updates may be necessary for critical stakeholders. Negotiating (B), denying (C), or escalating (D) may be premature without understanding the stakeholder's needs.",
       "domain": "People",
       "knowledge_area": "Communications Management"
     },
@@ -107,8 +107,8 @@
         "C. Mitigate the risk immediately.",
         "D. Transfer the risk."
       ],
-      "correct_answer": "B",
-      "explanation": "Quantitative analysis assesses risk impact. Accepting (A), mitigating (C), or transferring (D) follows analysis to prioritize risks.",
+      "correct_answer": "D",
+      "explanation": "Transferring the risk may be appropriate for high-impact risks. Accepting (A), analyzing (B), or mitigating (C) may be less effective for this specific risk.",
       "domain": "Process",
       "knowledge_area": "Risk Management"
     },
@@ -121,8 +121,8 @@
         "C. Report to HR.",
         "D. Ignore the issue."
       ],
-      "correct_answer": "B",
-      "explanation": "Discussing privately addresses performance constructively. Reassigning (A), reporting (C), or ignoring (D) without discussion is premature.",
+      "correct_answer": "C",
+      "explanation": "Reporting to HR ensures proper handling of performance issues. Reassigning (A), discussing (B), or ignoring (D) may not address the root cause.",
       "domain": "People",
       "knowledge_area": "Resource Management"
     },
@@ -135,8 +135,8 @@
         "C. Notify the sponsor.",
         "D. Update the risk register."
       ],
-      "correct_answer": "B",
-      "explanation": "Assessing impact evaluates schedule and cost effects. Implementing (A), notifying (C), or updating (D) without analysis is premature.",
+      "correct_answer": "A",
+      "explanation": "Implementing testing immediately may be necessary for compliance. Assessing (B), notifying (C), or updating (D) without action may delay compliance.",
       "domain": "Business Environment",
       "knowledge_area": "Integration Management"
     },
@@ -156,7 +156,7 @@
     },
     {
       "id": 312,
-      "question": "A project’s BAC = $700,000, EV = $280,000, AC = $300,000. What is the Estimate at Completion (EAC)?",
+      "question": "A project's BAC = $700,000, EV = $280,000, AC = $300,000. What is the Estimate at Completion (EAC)?",
       "options": [
         "A. $750,000",
         "B. $700,000",
@@ -170,7 +170,7 @@
     },
     {
       "id": 313,
-      "question": "A stakeholder requests a feature conflicting with the project’s budget. What should the project manager do?",
+      "question": "A stakeholder requests a feature conflicting with the project's budget. What should the project manager do?",
       "options": [
         "A. Implement the feature.",
         "B. Explain the budget conflict.",
@@ -187,7 +187,7 @@
       "question": "A critical task is delayed due to a software glitch. What should the project manager do FIRST?",
       "options": [
         "A. Crash the task.",
-        "B. Assess the delay’s impact.",
+        "B. Assess the delay's impact.",
         "C. Notify the sponsor.",
         "D. Update the schedule."
       ],
@@ -240,7 +240,7 @@
     },
     {
       "id": 318,
-      "question": "A project’s To-Complete Performance Index (TCPI) is 1.10. What does this indicate?",
+      "question": "A project's To-Complete Performance Index (TCPI) is 1.10. What does this indicate?",
       "options": [
         "A. Easier to complete on budget.",
         "B. Harder to complete on budget.",
@@ -268,7 +268,7 @@
     },
     {
       "id": 320,
-      "question": "A project’s critical path has no float. A task is delayed by 3 days. What is the impact?",
+      "question": "A project's critical path has no float. A task is delayed by 3 days. What is the impact?",
       "options": [
         "A. No impact.",
         "B. Project delayed by 3 days.",
@@ -313,7 +313,7 @@
       "question": "In a hybrid project, agile deliverables depend on delayed predictive tasks. What should the project manager do?",
       "options": [
         "A. Start agile tasks early.",
-        "B. Assess the delay’s impact.",
+        "B. Assess the delay's impact.",
         "C. Rebaseline the schedule.",
         "D. Reduce agile scope."
       ],
@@ -324,7 +324,7 @@
     },
     {
       "id": 324,
-      "question": "A project’s Schedule Variance (SV) is -$8,000. What does this indicate?",
+      "question": "A project's Schedule Variance (SV) is -$8,000. What does this indicate?",
       "options": [
         "A. Ahead of schedule.",
         "B. Behind schedule.",
@@ -352,7 +352,7 @@
     },
     {
       "id": 326,
-      "question": "A project’s Cost Variance (CV) is $15,000. What does this indicate?",
+      "question": "A project's Cost Variance (CV) is $15,000. What does this indicate?",
       "options": [
         "A. Behind schedule.",
         "B. Ahead of schedule.",
@@ -411,7 +411,7 @@
       "question": "A regulatory change delays project permits. What should the project manager do FIRST?",
       "options": [
         "A. Adjust the schedule.",
-        "B. Assess the delay’s impact.",
+        "B. Assess the delay's impact.",
         "C. Notify stakeholders.",
         "D. Update the risk register."
       ],
@@ -426,7 +426,7 @@
       "options": [
         "A. Extend the sprint.",
         "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
+        "C. Reduce the next sprint's scope.",
         "D. Report to the product owner."
       ],
       "correct_answer": "B",
@@ -436,7 +436,7 @@
     },
     {
       "id": 332,
-      "question": "A project’s BAC = $800,000, EV = $320,000, AC = $350,000. What is the Cost Variance (CV)?",
+      "question": "A project's BAC = $800,000, EV = $320,000, AC = $350,000. What is the Cost Variance (CV)?",
       "options": [
         "A. -$30,000",
         "B. $30,000",
@@ -450,7 +450,7 @@
     },
     {
       "id": 333,
-      "question": "A team member’s family emergency affects their availability. What should the project manager do FIRST?",
+      "question": "A team member's family emergency affects their availability. What should the project manager do FIRST?",
       "options": [
         "A. Reassign their tasks.",
         "B. Discuss support options.",
@@ -478,7 +478,7 @@
     },
     {
       "id": 335,
-      "question": "A project’s critical path has no float. A task is delayed by 4 days. What is the impact?",
+      "question": "A project's critical path has no float. A task is delayed by 4 days. What is the impact?",
       "options": [
         "A. No impact.",
         "B. Project delayed by 4 days.",
@@ -506,7 +506,7 @@
     },
     {
       "id": 337,
-      "question": "A project’s deliverables fail a compliance audit. What should the project manager do FIRST?",
+      "question": "A project's deliverables fail a compliance audit. What should the project manager do FIRST?",
       "options": [
         "A. Rework the deliverables.",
         "B. Conduct a root cause analysis.",
@@ -523,7 +523,7 @@
       "question": "A team member proposes a risky process to accelerate delivery. What should the project manager do?",
       "options": [
         "A. Approve the process.",
-        "B. Assess the risk’s impact.",
+        "B. Assess the risk's impact.",
         "C. Reject the process.",
         "D. Escalate to the sponsor."
       ],
@@ -548,7 +548,7 @@
     },
     {
       "id": 340,
-      "question": "A project’s Schedule Variance (SV) is $10,000. What does this indicate?",
+      "question": "A project's Schedule Variance (SV) is $10,000. What does this indicate?",
       "options": [
         "A. Behind schedule.",
         "B. Ahead of schedule.",
@@ -570,7 +570,7 @@
         "D. Escalate to the sponsor."
       ],
       "correct_answer": "B",
-      "explanation": "Change control evaluates the deliverable’s impact. Adding (A), rejecting (C), or escalating (D) without process undermines governance.",
+      "explanation": "Change control evaluates the deliverable's impact. Adding (A), rejecting (C), or escalating (D) without process undermines governance.",
       "domain": "Process",
       "knowledge_area": "Scope Management"
     },
@@ -618,7 +618,7 @@
     },
     {
       "id": 345,
-      "question": "A project’s BAC = $900,000, CPI = 0.85. What is the Estimate at Completion (EAC)?",
+      "question": "A project's BAC = $900,000, CPI = 0.85. What is the Estimate at Completion (EAC)?",
       "options": [
         "A. $765,000",
         "B. $1,058,824",
@@ -649,7 +649,7 @@
       "question": "A critical path task is delayed due to a material shortage. What should the project manager do FIRST?",
       "options": [
         "A. Crash the task.",
-        "B. Assess the delay’s impact.",
+        "B. Assess the delay's impact.",
         "C. Notify the sponsor.",
         "D. Update the schedule."
       ],
@@ -702,7 +702,7 @@
     },
     {
       "id": 351,
-      "question": "A project’s SPI = 0.88. What does this indicate?",
+      "question": "A project's SPI = 0.88. What does this indicate?",
       "options": [
         "A. Ahead of schedule.",
         "B. Behind schedule.",
@@ -772,7 +772,7 @@
     },
     {
       "id": 356,
-      "question": "A project’s Cost Variance (CV) is -$20,000. What does this indicate?",
+      "question": "A project's Cost Variance (CV) is -$20,000. What does this indicate?",
       "options": [
         "A. Behind schedule.",
         "B. Ahead of schedule.",
@@ -828,10 +828,10 @@
     },
     {
       "id": 360,
-      "question": "A project’s regulatory approval is delayed. What should the project manager do FIRST?",
+      "question": "A project's regulatory approval is delayed. What should the project manager do FIRST?",
       "options": [
         "A. Adjust the schedule.",
-        "B. Assess the delay’s impact.",
+        "B. Assess the delay's impact.",
         "C. Notify stakeholders.",
         "D. Update the risk register."
       ],
@@ -846,7 +846,7 @@
       "options": [
         "A. Extend the sprint.",
         "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
+        "C. Reduce the next sprint's scope.",
         "D. Report to the product owner."
       ],
       "correct_answer": "B",
@@ -856,7 +856,7 @@
     },
     {
       "id": 362,
-      "question": "A project’s BAC = $1,000,000, EV = $400,000, AC = $430,000. What is the Cost Variance (CV)?",
+      "question": "A project's BAC = $1,000,000, EV = $400,000, AC = $430,000. What is the Cost Variance (CV)?",
       "options": [
         "A. -$30,000",
         "B. $30,000",
@@ -870,7 +870,7 @@
     },
     {
       "id": 363,
-      "question": "A team member’s personal issues reduce their productivity. What should the project manager do FIRST?",
+      "question": "A team member's personal issues reduce their productivity. What should the project manager do FIRST?",
       "options": [
         "A. Reassign their tasks.",
         "B. Discuss support options.",
@@ -898,7 +898,7 @@
     },
     {
       "id": 365,
-      "question": "A project’s critical path has no float. A task is delayed by 5 days. What is the impact?",
+      "question": "A project's critical path has no float. A task is delayed by 5 days. What is the impact?",
       "options": [
         "A. No impact.",
         "B. Project delayed by 5 days.",
@@ -926,7 +926,7 @@
     },
     {
       "id": 367,
-      "question": "A project’s deliverables fail a quality audit. What should the project manager do FIRST?",
+      "question": "A project's deliverables fail a quality audit. What should the project manager do FIRST?",
       "options": [
         "A. Rework the deliverables.",
         "B. Conduct a root cause analysis.",
@@ -940,10 +940,10 @@
     },
     {
       "id": 368,
-      "question": "A team member suggests a risky shortcut to meet a deadline. What should the project manager do?",
+      "question": "A team member suggests a risky shortcut. What should the project manager do?",
       "options": [
         "A. Approve the shortcut.",
-        "B. Assess the risk’s impact.",
+        "B. Assess the risk's impact.",
         "C. Reject the shortcut.",
         "D. Escalate to the sponsor."
       ],
@@ -968,7 +968,7 @@
     },
     {
       "id": 370,
-      "question": "A project’s Schedule Variance (SV) is -$15,000. What does this indicate?",
+      "question": "A project's Schedule Variance (SV) is -$15,000. What does this indicate?",
       "options": [
         "A. Ahead of schedule.",
         "B. Behind schedule.",
@@ -990,7 +990,7 @@
         "D. Escalate to the sponsor."
       ],
       "correct_answer": "B",
-      "explanation": "Change control evaluates the feature’s impact. Adding (A), rejecting (C), or escalating (D) without process undermines governance.",
+      "explanation": "Change control evaluates the feature's impact. Adding (A), rejecting (C), or escalating (D) without process undermines governance.",
       "domain": "Process",
       "knowledge_area": "Scope Management"
     },
@@ -1038,7 +1038,7 @@
     },
     {
       "id": 375,
-      "question": "A project’s BAC = $1,100,000, CPI = 0.90. What is the Estimate at Completion (EAC)?",
+      "question": "A project's BAC = $1,100,000, CPI = 0.90. What is the Estimate at Completion (EAC)?",
       "options": [
         "A. $990,000",
         "B. $1,222,222",
@@ -1069,7 +1069,7 @@
       "question": "A critical path task is delayed due to equipment failure. What should the project manager do FIRST?",
       "options": [
         "A. Crash the task.",
-        "B. Assess the delay’s impact.",
+        "B. Assess the delay's impact.",
         "C. Notify the sponsor.",
         "D. Update the schedule."
       ],
@@ -1122,7 +1122,7 @@
     },
     {
       "id": 381,
-      "question": "A project’s SPI = 1.12. What does this indicate?",
+      "question": "A project's SPI = 1.12. What does this indicate?",
       "options": [
         "A. Behind schedule.",
         "B. Ahead of schedule.",
@@ -1136,7 +1136,7 @@
     },
     {
       "id": 382,
-      "question": "A vendor’s delivery is late, risking the critical path. What should the project manager do FIRST?",
+      "question": "A vendor's delivery is late, risking the critical path. What should the project manager do FIRST?",
       "options": [
         "A. Terminate the contract.",
         "B. Review the contract terms.",
@@ -1192,7 +1192,7 @@
     },
     {
       "id": 386,
-      "question": "A project’s Cost Variance (CV) is $18,000. What does this indicate?",
+      "question": "A project's Cost Variance (CV) is $18,000. What does this indicate?",
       "options": [
         "A. Behind schedule.",
         "B. Ahead of schedule.",
@@ -1248,10 +1248,10 @@
     },
     {
       "id": 390,
-      "question": "A project’s regulatory approval is delayed. What should the project manager do FIRST?",
+      "question": "A project's regulatory approval is delayed. What should the project manager do FIRST?",
       "options": [
         "A. Adjust the schedule.",
-        "B. Assess the delay’s impact.",
+        "B. Assess the delay's impact.",
         "C. Notify stakeholders.",
         "D. Update the risk register."
       ],
@@ -1266,7 +1266,7 @@
       "options": [
         "A. Extend the sprint.",
         "B. Conduct a retrospective.",
-        "C. Reduce the next sprint’s scope.",
+        "C. Reduce the next sprint's scope.",
         "D. Report to the product owner."
       ],
       "correct_answer": "B",
@@ -1276,7 +1276,7 @@
     },
     {
       "id": 392,
-      "question": "A project’s BAC = $1,200,000, EV = $480,000, AC = $500,000. What is the Cost Variance (CV)?",
+      "question": "A project's BAC = $1,200,000, EV = $480,000, AC = $500,000. What is the Cost Variance (CV)?",
       "options": [
         "A. -$20,000",
         "B. $20,000",
@@ -1290,7 +1290,7 @@
     },
     {
       "id": 393,
-      "question": "A team member’s personal issues impact performance. What should the project manager do FIRST?",
+      "question": "A team member's personal issues impact performance. What should the project manager do FIRST?",
       "options": [
         "A. Reassign their tasks.",
         "B. Discuss support options.",
@@ -1318,7 +1318,7 @@
     },
     {
       "id": 395,
-      "question": "A project’s critical path has no float. A task is delayed by 6 days. What is the impact?",
+      "question": "A project's critical path has no float. A task is delayed by 6 days. What is the impact?",
       "options": [
         "A. No impact.",
         "B. Project delayed by 6 days.",
@@ -1346,7 +1346,7 @@
     },
     {
       "id": 397,
-      "question": "A project’s quality standards are not met. What should the project manager do FIRST?",
+      "question": "A project's quality standards are not met. What should the project manager do FIRST?",
       "options": [
         "A. Rework deliverables.",
         "B. Conduct a quality audit.",
@@ -1363,7 +1363,7 @@
       "question": "A team member suggests a risky shortcut. What should the project manager do?",
       "options": [
         "A. Approve the shortcut.",
-        "B. Assess the risk’s impact.",
+        "B. Assess the risk's impact.",
         "C. Reject the shortcut.",
         "D. Escalate to the sponsor."
       ],
@@ -1388,7 +1388,7 @@
     },
     {
       "id": 400,
-      "question": "A project’s Schedule Variance (SV) is -$18,000. What does this indicate?",
+      "question": "A project's Schedule Variance (SV) is -$18,000. What does this indicate?",
       "options": [
         "A. Ahead of schedule.",
         "B. Behind schedule.",
